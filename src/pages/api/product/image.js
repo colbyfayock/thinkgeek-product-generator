@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     const { description } = body || {};
 
     const results = await openai.createImage({
-      prompt: `Create an image of a new ThinkGeek product with a plain colored background that has no text or objects from the description: ${description}`,
+      prompt: `create a product photo for a futuristic 3d printer with a touchscreen that can print anything`,
       n: 2,
       size: '1024x1024',
     });

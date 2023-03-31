@@ -14,7 +14,10 @@ export default async function handler() {
         model: 'gpt-3.5-turbo',
         messages: [{
           role: 'user',
-          content: `Create a new ThinkGeek April Fools product with the following unique attributes:
+          content: `
+          Create new ThinkGeek product.
+          The fake product is a large, futuristic 3d printer that is a reference to a sci-fi movie.
+          Create the following unique attributes:
           - Product Title
           - Product Tagline
           - Long product description
@@ -26,6 +29,20 @@ export default async function handler() {
           Format the response in the following JSON object ${JSON.stringify(PRODUCT_ATTRIBUTES)}.`
         }]
       }),
+      //   messages: [{
+      //     role: 'user',
+      //     content: `Create a new ThinkGeek April Fools product with the following unique attributes:
+      //     - Product Title
+      //     - Product Tagline
+      //     - Long product description
+      //     - Clever product bullet points
+      //     - Product specifications including technical details
+      //     - The product's appearance and what it looks like visually in less than 600 characters
+      //     - An SEO meta description for the product
+      //     - A social media Open Graph description for the product
+      //     Format the response in the following JSON object ${JSON.stringify(PRODUCT_ATTRIBUTES)}.`
+      //   }]
+      // }),
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${process.env.OPENAI_API_KEY}`
