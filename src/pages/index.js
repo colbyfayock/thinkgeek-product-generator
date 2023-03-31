@@ -146,6 +146,7 @@ export default function Home() {
         <meta name="twitter:data1" content={productPrice} />
         <meta name="twitter:label2" content="Category" />
         <meta name="twitter:data2" content="Interests :: Amazing Goodies" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       
       
