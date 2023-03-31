@@ -126,14 +126,54 @@ export default function Home() {
         </h1>
       </div>
       <div className="clear" />
-      <div>
+      <div style={{ fontSize: '1.2em' }}>
         {/* #END #product-details */}
         {/* Right Side Container */}
         <h2>April Fools!</h2>
         <p style={{fontSize: '1.6em'}}>We got you sooooo bad... right?</p>
         <p style={{fontSize: '1.2em'}}>Anyways, go generate a new one or trick your friends 👀</p>
-        <p  style={{ marginBottom: '5em'}}>
+        <p  style={{ marginBottom: '2em'}}>
           <Link href="/" style={{ fontSize: '1.2em', fontWeight: 'bold'}}>Generate a New One</Link>
+        </p>
+
+        <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
+          How does this work?
+        </h4>
+        
+        <p>
+          This project uses OpenAI to first generate a product with ChatGPT.
+        </p>
+
+        <p>
+          That description is fed into DALL-E to generate an image.
+        </p>
+
+        <p>
+          The assets are delivered with <a href="https://cloudinary.com/">Cloudinary</a> from a Next.js app.
+        </p>
+
+        <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
+          Learn how to use the ChatGPT and DALL-E APIs
+        </h4>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=BQPqqQLGweM">Pokémon Generator with ChatGPT & DALL-E API in Next.js</a>
+        </p>
+
+        <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
+          Learn how to optimize images in Next.js
+        </h4>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=7lhUsK-FxYI">Optimize Images, Responsive Sizing, & AI Cropping in Next.js with Next Cloudinary</a>
+        </p>
+
+        <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
+          Learn how to upload images in Next.js
+        </h4>
+
+        <p>
+          <a href="https://www.youtube.com/watch?v=82gACPNBkaM">Upload Images to Cloudinary in React & Next.js</a>
         </p>
 
         {/* MAIN PRODUCT PAGE */}
@@ -145,72 +185,6 @@ export default function Home() {
             </a>
           </span>
         </div>
-        <ul id="tabs">
-          <li>
-            <a
-              href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-              className="selected"
-            >
-              {" "}
-              Main Description{" "}
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-              id="additional-images"
-            >
-              Additional Images{" "}
-            </a>
-          </li>
-        </ul>
-        <div className="contentblob">
-          {/* Main description */}
-          <div id="proddescription">
-
-            <h4 className="prodheader">
-              How does this work?
-            </h4>
-            
-            <p>
-              This project uses OpenAI to first generate a product with ChatGPT.
-            </p>
-
-            <p>
-              That description is fed into DALL-E to generate an image.
-            </p>
-
-            <p>
-              The assets are delivered with <a href="https://cloudinary.com/">Cloudinary</a> from a Next.js app.
-            </p>
-
-            <h4 className="prodheader">
-              Learn how to use the ChatGPT and DALL-E APIs
-            </h4>
-
-            <p>
-              <a href="https://www.youtube.com/watch?v=BQPqqQLGweM">Pokémon Generator with ChatGPT & DALL-E API in Next.js</a>
-            </p>
-
-            <h4 className="prodheader">
-              Learn how to optimize images in Next.js
-            </h4>
-
-            <p>
-              <a href="https://www.youtube.com/watch?v=7lhUsK-FxYI">Optimize Images, Responsive Sizing, & AI Cropping in Next.js with Next Cloudinary</a>
-            </p>
-
-            <h4 className="prodheader">
-              Learn how to upload images in Next.js
-            </h4>
-
-            <p>
-              <a href="https://www.youtube.com/watch?v=82gACPNBkaM">Upload Images to Cloudinary in React & Next.js</a>
-            </p>
-          </div>
-
-          {/* #END #upsells */}
-        </div>{" "}
         {/* #END #contentblob */}
       </div>{" "}
       {/* #END #product-main */}

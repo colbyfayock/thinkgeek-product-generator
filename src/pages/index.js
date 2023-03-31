@@ -63,7 +63,7 @@ export default function Home() {
     setIsLoading(true);
     setAttributes(defaultAttributes);
     setImage({
-      url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292619/thinkgeek-product-generator/in-progress_hv0mzd.png'
+      url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png'
     });
     setError(undefined);
 
@@ -298,6 +298,9 @@ export default function Home() {
             </form>
             {error && (
               <p><strong>{ error }</strong></p>
+            )}
+            {isLoading && (
+              <p><strong>This might take a few moments... perfection takes time!</strong></p>
             )}
           </div>{" "}
           {/* #END product-actions */}
