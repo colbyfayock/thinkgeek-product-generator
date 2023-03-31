@@ -36,6 +36,8 @@ const defaultProductSpecifications = [
 const defaultMetaDescription = 'Equipped with advanced replicator technology and a range of user-friendly features, this cutting-edge 3D printer that can bring your wildest imaginations to life. With a maximum print volume of 300 mm x 300 mm x 300 mm and compatibility with a variety of printing materials, this printer is perfect for hobbyists, engineers, and anyone who wants to step into the future of printing technology. Get your hands on the Replicator 2320 and start creating today!';
 const defaultOgDescription = 'Revolutionize the way you create with the ThinkGeek Replicator 2320! This cutting-edge 3D printer is equipped with advanced replicator technology, user-friendly features, and a sturdy construction built to last. Whether you\'re a hobbyist, engineer, or mad scientist, the Replicator 2320 is the perfect tool for bringing your wildest imaginations to life. Get yours today and step into the future of printing technology!';
 
+const productPrice = `$149.99`;
+
 export default function Home() {
 
   const [attributes, setAttributes] = useState(defaultAttributes);
@@ -93,11 +95,11 @@ export default function Home() {
         <meta property="og:title" content="" />
         <meta
           property="og:url"
-          content="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/iljk/?cpg=fbl_iljk"
+          content={defaultImage.url}
         />
         <meta
           property="og:image"
-          content="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/frontsquare/iljk_encounter_wearable_quest.jpg"
+          content={defaultImage.url}
         />
         <meta property="og:site_name" content="ThinkGeek" />
         <meta
@@ -112,7 +114,7 @@ export default function Home() {
         />
         <meta
           itemProp="image"
-          content="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljk_encounter_wearable_quest.jpg"
+          content={defaultImage.url}
         />
         <meta
           name="twitter:url"
@@ -125,12 +127,12 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/frontsquare/iljk_encounter_wearable_quest.jpg"
+          content={defaultImage.url}
         />
         <meta name="twitter:image:width" content={300} />
         <meta name="twitter:image:height" content={300} />
         <meta name="twitter:label1" content="Price" />
-        <meta name="twitter:data1" content="$79.99" />
+        <meta name="twitter:data1" content={productPrice} />
         <meta name="twitter:label2" content="Category" />
         <meta name="twitter:data2" content="Interests :: Amazing Goodies" />
       </Head>
@@ -158,15 +160,14 @@ export default function Home() {
         <div id="productimage">
           <img
             className="badge-invented"
-            src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/other/badges/badge_custom.png"
+            src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/badge_custom.png"
             alt="Invented at ThinkGeek"
           />
           <div className="prod_gallery">
             <div id="image">
-              {/* begin: main image */}
               <a
                 id="carousel_front"
-                href="https://web.archive.org/web/20150404213211/http://a.tgcdn.net/images/products/zoom/iljk_encounter_wearable_quest.jpg"
+                href={defaultImage.url}
                 title=""
                 rel="group1"
               >
@@ -180,204 +181,14 @@ export default function Home() {
                 />
                 <div className="caption">
                   <p
-                    rel="http://a.tgcdn.net/images/products/frontsquare/iljk_encounter_wearable_quest.jpg"
+                    rel={defaultImage.url}
                     style={{ display: "block" }}
                   >
                     Click to zoom
                   </p>
                 </div>
               </a>
-              {/* end: main image */}
-              {/* begin: additional images */}
-              <a
-                id="carousel_32456"
-                href="https://web.archive.org/web/20150404213211/http://a.tgcdn.net/images/products/additional/large/iljk_encounter_wearable_quest_hall.gif"
-                rel="group1"
-                title=""
-              >
-                <img
-                  src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_hall.gif"
-                  alt=""
-                  border={0}
-                />
-                <div className="caption">
-                  <p rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_hall.gif">
-                    Click to zoom
-                  </p>
-                </div>
-              </a>
-              <a
-                id="carousel_32458"
-                href="https://web.archive.org/web/20150404213211/http://a.tgcdn.net/images/products/additional/large/iljk_encounter_wearable_quest_scrns.jpg"
-                rel="group1"
-                title=""
-              >
-                <img
-                  src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_scrns.jpg"
-                  alt=""
-                  border={0}
-                />
-                <div className="caption">
-                  <p rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_scrns.jpg">
-                    Click to zoom
-                  </p>
-                </div>
-              </a>
-              <a
-                id="carousel_32460"
-                href="https://web.archive.org/web/20150404213211/http://a.tgcdn.net/images/products/additional/large/iljk_encounter_wearable_quest_ear.jpg"
-                rel="group1"
-                title=""
-              >
-                <img
-                  src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_ear.jpg"
-                  alt=""
-                  border={0}
-                />
-                <div className="caption">
-                  <p rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_ear.jpg">
-                    Click to zoom
-                  </p>
-                </div>
-              </a>
-              <span
-                id="youtube"
-                href="http://img.youtube.com/vi/ZBc_DlkLtN0/default.jpg"
-                rel="group1"
-                title="Video"
-              >
-                <iframe
-                  width={300}
-                  height={300}
-                  src="//web.archive.org/web/20150404213211if_/http://www.youtube.com/embed/ZBc_DlkLtN0"
-                  frameBorder={0}
-                  allowFullScreen=""
-                />
-                <div className="caption">
-                  <p rel="http://img.youtube.com/vi/ZBc_DlkLtN0/default.jpg">
-                    Video
-                  </p>
-                </div>
-              </span>
-              {/* end: additional images */}
-              <div
-                id="caption_main"
-                className="carousel_caption_wrap"
-                style={{ visibility: "hidden" }}
-              >
-                <div className="carousel_caption" />
-              </div>
-              <div
-                id="caption_32456"
-                className="carousel_caption_wrap"
-                style={{ visibility: "hidden" }}
-              >
-                <div className="carousel_caption" />
-              </div>
-              <div
-                id="caption_32458"
-                className="carousel_caption_wrap"
-                style={{ visibility: "hidden" }}
-              >
-                <div className="carousel_caption" />
-              </div>
-              <div
-                id="caption_32460"
-                className="carousel_caption_wrap"
-                style={{ visibility: "hidden" }}
-              >
-                <div className="carousel_caption" />
-              </div>
             </div>
-            <ul id="image_slider" className="jcarousel-skin-tango">
-              <li>
-                {/* begin: thumbnail for the main image */}
-                <a
-                  id="a_main"
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/iljk/zoom"
-                  rel="http://a.tgcdn.net/images/products/frontsquare/iljk_encounter_wearable_quest.jpg"
-                  className="image"
-                  title={`${productTitle} Main Image`}
-                >
-                  <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/thumb/carousel/front/iljk_encounter_wearable_quest.jpg"
-                    className="thumb thumb_selected"
-                    alt={`${productTitle} Main Image`}
-                    border={0}
-                  />
-                </a>
-                {/* end: thumbnail for the main image */}
-              </li>
-              {/* begin: additional images */}
-              <li>
-                <a
-                  id="a_32456"
-                  href="#"
-                  rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_hall.gif"
-                  title=""
-                  className="image"
-                >
-                  <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carouselthumb/iljk_encounter_wearable_quest_hall.gif"
-                    alt=""
-                    className="thumb"
-                    border={0}
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  id="a_32458"
-                  href="#"
-                  rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_scrns.jpg"
-                  title=""
-                  className="image"
-                >
-                  <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carouselthumb/iljk_encounter_wearable_quest_scrns.jpg"
-                    alt=""
-                    className="thumb"
-                    border={0}
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  id="a_32460"
-                  href="#"
-                  rel="http://a.tgcdn.net/images/products/additional/carousel/iljk_encounter_wearable_quest_ear.jpg"
-                  title=""
-                  className="image"
-                >
-                  <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/additional/carouselthumb/iljk_encounter_wearable_quest_ear.jpg"
-                    alt=""
-                    className="thumb"
-                    border={0}
-                  />
-                </a>
-              </li>
-              {/* end: additional images */}
-              <li>
-                <a
-                  id="a_yt_ZBc_DlkLtN0"
-                  href="#"
-                  rel="//www.youtube.com/embed/ZBc_DlkLtN0"
-                  className="image"
-                >
-                  <img
-                    src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/other/youtube_carousel_play.png"
-                    alt=""
-                    className="thumb"
-                    border={0}
-                    style={{
-                      background:
-                        "url(https://web.archive.org/web/20150404213211im_/http://img.youtube.com/vi/ZBc_DlkLtN0/default.jpg) no-repeat"
-                    }}
-                  />
-                </a>
-              </li>
-            </ul>
           </div>
           {/* END CAROUSEL */}
         </div>
@@ -401,10 +212,10 @@ export default function Home() {
           </div>
           <div className="actions clearfix" id="product-actions">
             <form id="buy" className="clearfix">
-              <h3>$79.99</h3>
+              <h3>{ productPrice }</h3>
               <p className="availability color-green">
                 <i className="icon-ok" />
-                Gygaxian Exercise
+                I&apos;m Sorry, Dave
               </p>
               <p />
               <div className="quantity-box1">
@@ -452,58 +263,14 @@ export default function Home() {
         {/* Right Side Container */}
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
-          <span className="social-button-facebook">
-            {/* <div
-              id="facebook_like"
-              className="fb-like"
-              data-href="http://www.thinkgeek.com/product/iljk/"
-              ref="fbl_iljk"
-              data-colorscheme="light"
-              data-layout="button_count"
-              data-send="true"
-              data-show-faces="false"
-            /> */}
-          </span>
-          <span className="social-button-twitter">
-            <a
-              href="https://web.archive.org/web/20150404213211/https://twitter.com/share"
-              className="twitter-share-button"
-              data-lang="en"
-              data-url="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/iljk/"
-              data-count="horizontal"
-            >
-              &nbsp;
-            </a>
-          </span>
           <span className="social-button-pinterest">
-            <a
-              style={{ height: 59, verticalAlign: "bottom" }}
-              href="https://web.archive.org/web/20150404213211/http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.thinkgeek.com%2Fproduct%2Filjk%2F&media=http%3A%2F%2Fwww.thinkgeek.com/images/products/frontsquare/iljk_encounter_wearable_quest.jpg&description="
-              className="pin-it-button"
-              count-layout="horizontal"
-            >
-              <img
-                border={0}
-                src="//web.archive.org/web/20150404213211im_/http://assets.pinterest.com/images/PinExt.png"
-                title="Pin It"
-              />
-            </a>
+            SHARE
           </span>
           <span className="social-button-gplus">
-            {/* <g:plusone
-              href="http://www.thinkgeek.com/product/iljk/"
-              size="medium"
-              recommendations="false"
-            ></g:plusone> */}
+            SHARE
           </span>
           <span className="social-button-wanelo">
-            <a
-              className="wanelo-save-button"
-              href="//web.archive.org/web/20150404213211/http://wanelo.com/"
-              data-url="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/iljk/"
-              data-image="http://www.thinkgeek.com/images/products/frontsquare/iljk_encounter_wearable_quest.jpg"
-              data-price="$79.99"
-            ></a>
+            SHARE
           </span>
         </div>
         <ul id="tabs">
@@ -546,63 +313,9 @@ export default function Home() {
             </ul>
             <p />
           </div>
-          {/* Bulleted portion of the description, if needed */}
+
           <div id="bullets"></div>
-          <div
-            id="description_video"
-            className="description_video undercover push-bottom"
-          >
-            <a name="videos" />
-            <h4 className="prodheader">
-              { productTitle }
-            </h4>
-            <div
-              className="undercover-trigger preview-thumb preview-thumb-youtube"
-              style={{
-                backgroundImage:
-                  'url("https://web.archive.org/web/20150404213211im_/http://i3.ytimg.com/vi/ZBc_DlkLtN0/sddefault.jpg")'
-              }}
-            >
-              <i className="icon-play" />
-            </div>
-            <div id="video" className="undercover-content">
-              <iframe
-                width={753}
-                height={454}
-                src="//web.archive.org/web/20150404213211if_/http://www.youtube.com/embed/ZBc_DlkLtN0?autoplay=1"
-                frameBorder={0}
-                allowFullScreen=""
-              />
-            </div>
-          </div>
-          <div
-            id="facebook-comments"
-            className="clear waypoint-lazy invisible"
-          >
-            <h3 className="prodheader">Wanna chat about it?</h3>
-            <p className="note">
-              Have questions about EnCounter - Wearable Interactive Quest or
-              your order? We monitor these comments daily, but it may be
-              faster to{" "}
-              <a
-                id="email-us-directly"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/get-help/"
-              >
-                email us directly
-              </a>{" "}
-              or call us at <strong>1-888-GEEKSTUFF</strong>.
-            </p>
-            <div
-              className="waypoint-lazy-content hide fb-comments"
-              data-callback="facebook"
-              data-class="fb-comments"
-              data-attr="data-href"
-              data-attr-value="http://www.thinkgeek.com/product/iljk/"
-              data-num-posts={3}
-              data-width={702}
-              data-colorscheme="light"
-            />
-          </div>
+          
           <div className="page-actions actions">
             <ul className="nav">
               <li className="nav-01">
@@ -622,7 +335,7 @@ export default function Home() {
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/1a1d/">
                   <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/thumb/largesquare/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
+                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
                     width={128}
                     height={128}
                     alt="Bag of Holding - Con-Survival Edition"
@@ -637,7 +350,7 @@ export default function Home() {
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/1d89/">
                   <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/thumb/largesquare/1d89_d20_bowl_set.jpg"
+                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
                     width={128}
                     height={128}
                     alt="D20 Bowl Set"
@@ -652,7 +365,7 @@ export default function Home() {
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/1cd7/">
                   <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/thumb/largesquare/1cd7_d20_cupcake_mold.jpg"
+                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
                     width={128}
                     height={128}
                     alt="D20 Critical Hit Mini Cake Pan"
@@ -667,7 +380,7 @@ export default function Home() {
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/deaa/">
                   <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/products/thumb/largesquare/deaa_critical_hit_d20.gif"
+                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
                     width={128}
                     height={128}
                     alt="Critical Hit LED D20 Die"
@@ -682,7 +395,7 @@ export default function Home() {
               <li className="last">
                 <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/brain/order/certificate.cgi">
                   <img
-                    src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/other/misc/gift-icon-120x120.jpg"
+                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
                     alt="Gift Certificates"
                     width={128}
                     height={128}
@@ -712,7 +425,7 @@ export default function Home() {
             className="actionshot"
           >
             <img
-              src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/other/suyas-icon.gif"
+              src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/suyas-icon.gif"
               alt="Send us your action shots!"
               width={108}
               height={58}
@@ -732,7 +445,7 @@ export default function Home() {
               <img
                 width={114}
                 height={85}
-                src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/other/youtube_play.png"
+                src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/youtube_play.png"
               />
             </a>
           </div>
@@ -747,7 +460,7 @@ export default function Home() {
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljn/"
               >
                 <img
-                  src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljn_steam-powered_steam_machine.gif"
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
                   alt="Steam-Powered Gaming Cabinet"
                 />
               </a>
@@ -766,7 +479,7 @@ export default function Home() {
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljr/"
               >
                 <img
-                  src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljr_voltron_cat_condo.jpg "
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg "
                   alt="Voltron Cat Condo"
                 />
               </a>
@@ -785,7 +498,7 @@ export default function Home() {
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljo/"
               >
                 <img
-                  src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljo_selfie_rig.jpg"
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
                   alt="bullet time selfie rig"
                 />
               </a>
@@ -804,7 +517,7 @@ export default function Home() {
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
               >
                 <img
-                  src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljl_gotg_bottled_drinks.jpg"
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
                   alt="GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
                 />
               </a>
@@ -824,7 +537,7 @@ export default function Home() {
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
               >
                 <img
-                  src="https://web.archive.org/web/20150404213211im_/http://www.thinkgeek.com/images/products/thumb/largesquare/iljp_mad_max_power_wheels.jpg"
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
                   alt="Power Wheels Desert Drifters"
                 />
               </a>

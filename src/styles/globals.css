@@ -2607,7 +2607,7 @@ fieldset {
 }
 
 .tg_global_sprite {
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/tg-global-sprite.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/tg-global-sprite.png);
   background-repeat: no-repeat
 }
 
@@ -2953,7 +2953,7 @@ fieldset {
   display: block;
   width: 229px;
   height: 50px;
-  background: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/thinkgeek-logo-tag.png) no-repeat;
+  background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/thinkgeek-logo-tag_2x_ibv5lm) no-repeat;
   background-size: 100%;
   margin: 24px 0 0 -4px;
   float: left
@@ -2965,7 +2965,7 @@ fieldset {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #header-logo {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/thinkgeek-logo-tag@2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/thinkgeek-logo-tag_2x_ibv5lm)
   }
 }
 
@@ -3049,49 +3049,49 @@ fieldset {
   z-index: 1;
   width: 90px;
   height: 59px;
-  background: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-meh-grip.png);
+  background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-meh-grip.png);
   background-size: 100%
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #header-shipping .timmy-shipping {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-meh-grip_2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-meh-grip_2x.png)
   }
 }
 
 #header-shipping .timmy-shipping.timmy-shipping-valentines {
-  background: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-valentines-grip.png);
+  background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-valentines-grip.png);
   background-size: 100%
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #header-shipping .timmy-shipping.timmy-shipping-valentines {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-valentines-grip_2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-valentines-grip_2x.png)
   }
 }
 
 #header-shipping .timmy-shipping.timmy-shipping-stpatricksday {
   height: 75px;
   bottom: -15px;
-  background: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-stpatricksday-grip.png);
+  background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-stpatricksday-grip.png);
   background-size: 100%
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #header-shipping .timmy-shipping.timmy-shipping-stpatricksday {
     bottom: -16px;
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-stpatricksday-grip_2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-stpatricksday-grip_2x.png)
   }
 }
 
 #header-shipping .timmy-shipping.timmy-shipping-spock {
-  background: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-spock-grip.png);
+  background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-spock-grip.png);
   background-size: 100%
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #header-shipping .timmy-shipping.timmy-shipping-spock {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/timmy-spock-grip_2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/timmy-spock-grip_2x.png)
   }
 }
 
@@ -3117,12 +3117,12 @@ fieldset {
   visibility: hidden;
   width: 1px;
   height: 1px;
-  background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/navigation/logos/topnav-logos-sprite.2015030500.png")
+  background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/topnav-logos-sprite.2015030500_2x_wmx69h")
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .topnav_sprite_preloader {
-    background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/navigation/logos/topnav-logos-sprite.2015030500@2x.png")
+    background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/topnav-logos-sprite.2015030500_2x_wmx69h")
   }
 }
 
@@ -3416,13 +3416,13 @@ a.topnav_tertiary_promo_image {
 }
 
 .topnav_logo {
-  background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/navigation/logos/topnav-logos-sprite.2015030500.png");
+  background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/topnav-logos-sprite.2015030500_2x_wmx69h");
   background-size: 1500px
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .topnav_logo {
-    background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/navigation/logos/topnav-logos-sprite.2015030500@2x.png")
+    background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/topnav-logos-sprite.2015030500_2x_wmx69h")
   }
 }
 
@@ -4595,13 +4595,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   left: -77px;
   width: 325px;
   height: 397px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/footer-timmy-meh.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/footer-timmy-meh_2x_jqjsul);
   background-size: 325px 397px
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #footer-help #timmy-meh {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/footer-timmy-meh@2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/footer-timmy-meh_2x_jqjsul)
   }
 }
 
@@ -4611,13 +4611,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   bottom: 0;
   width: 207px;
   height: 237px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/footer-timmy-skywalker.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/footer-timmy-skywalker_2x_z6ened);
   background-size: 207px 237px
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #footer-help #timmy-skywalker {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/footer-timmy-skywalker@2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/footer-timmy-skywalker_2x_z6ened)
   }
 }
 
@@ -4812,7 +4812,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   *display: inline;
   width: 85px;
   height: 18px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/geeknet-logo.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/geeknet-logo_2x_oksubd);
   background-size: 85px 18px;
   margin: -2px 3px 0
 }
@@ -4823,7 +4823,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #footer-legal #footer-copyright a {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/geeknet-logo@2x.png)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/geeknet-logo_2x_oksubd);
   }
 }
 
@@ -5180,7 +5180,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 .tg_home #email-sign-up {
   height: 335px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/redesign/newsletter_signup_homepage_01.jpg);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/newsletter_signup_homepage_01.jpg);
   background-position: right 36px;
   background-size: 201px 316px;
   background-repeat: no-repeat
@@ -5197,7 +5197,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .tg_home #email-sign-up {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/redesign/newsletter_signup_homepage_01_2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/newsletter_signup_homepage_01_2x.jpg)
   }
 }
 
@@ -5367,13 +5367,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 #brands-color li a span {
   background-repeat: no-repeat;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/test/brands-sprite-combined.jpg);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combined.jpg);
   background-size: 134px 599px
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #brands-color li a span {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/test/brands-sprite-combined-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combined-2x.jpg)
   }
 }
 
@@ -5475,12 +5475,12 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 64px;
   height: 51px;
   background-position: 0 -245px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-combineded.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combineded.jpg)
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #brands-color .twoandahalfmen span {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-combineded-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combineded-2x.jpg)
   }
 }
 
@@ -5492,12 +5492,12 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 108px;
   height: 34px;
   background-position: 0 -495px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-combineded.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combineded.jpg)
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #brands-color .downtonabbey span {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-combineded-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combineded-2x.jpg)
   }
 }
 
@@ -5526,13 +5526,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 #brands-grey li a span {
   background-repeat: no-repeat;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/test/brands-sprite-combined.jpg);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combined.jpg);
   background-size: 134px 599px
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #brands-grey li a span {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/test/brands-sprite-combined-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-combined-2x.jpg)
   }
 }
 
@@ -5704,7 +5704,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 112px;
   height: 64px;
   background-position: 0 -64px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.big-bang-theory:hover {
@@ -5713,7 +5713,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.big-bang-theory {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5721,7 +5721,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 132px;
   height: 52px;
   background-position: 0 -182px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.doctor-who:hover {
@@ -5730,7 +5730,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.doctor-who {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5738,7 +5738,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 125px;
   height: 58px;
   background-position: 0 -294px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.game-of-thrones:hover {
@@ -5747,7 +5747,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.game-of-thrones {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5755,7 +5755,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 200px;
   height: 29px;
   background-position: 0 -383px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.geek-labs:hover {
@@ -5764,7 +5764,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.geek-labs {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5772,7 +5772,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 118px;
   height: 48px;
   background-position: 0 -462px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.marvel:hover {
@@ -5781,7 +5781,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.marvel {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5789,7 +5789,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 223px;
   height: 38px;
   background-position: 0 -550px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.minecraft:hover {
@@ -5798,7 +5798,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.minecraft {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5806,7 +5806,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 180px;
   height: 54px;
   background-position: 0 -644px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.portal:hover {
@@ -5815,7 +5815,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.portal {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5823,7 +5823,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 180px;
   height: 34px;
   background-position: 0 -734px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.star-trek:hover {
@@ -5832,7 +5832,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.star-trek {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -5840,7 +5840,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   width: 124px;
   height: 54px;
   background-position: 0 -824px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite.jpg)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite.jpg)
 }
 
 .brand-logos a.star-wars:hover {
@@ -5849,7 +5849,7 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .brand-logos a.star-wars {
-    background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/home/brands/brands-sprite-2x.jpg)
+    background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/brands-sprite-2x.jpg)
   }
 }
 
@@ -10246,7 +10246,7 @@ h3 span.green {
   left: -18px;
   width: 47px;
   height: 66px;
-  background: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday-shipping-hat1.png") no-repeat top right
+  background: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday-shipping-hat1.png") no-repeat top right
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -12046,7 +12046,7 @@ form.form p label, form.form p input, form.form p select {
 }
 
 #container_errors .shadow-outer {
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/checkout/shadowAlpha.png) !important;
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/shadowAlpha.png) !important;
   background-repeat: no-repeat !important;
   background-position: bottom right !important
 }
@@ -12214,7 +12214,7 @@ a.access-mobile {
   left: 0;
   width: 40px;
   height: 480px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png)
 }
 
 #fancybox-overlay {
@@ -12285,7 +12285,7 @@ a.access-mobile {
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px 0px;
   cursor: pointer;
   z-index: 1103;
@@ -12353,7 +12353,7 @@ a.access-mobile {
 
 #fancybox-title-over {
   padding: 10px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancy_title_over.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancy_title_over.png);
   display: block
 }
 
@@ -12368,7 +12368,7 @@ a.access-mobile {
 
 #fancybox-title-left {
   padding-left: 15px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -90px;
   background-repeat: no-repeat
 }
@@ -12376,14 +12376,14 @@ a.access-mobile {
 #fancybox-title-main {
   font-weight: bold;
   line-height: 29px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox-x.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox-x.png);
   background-position: 0px -40px;
   color: #FFF
 }
 
 #fancybox-title-right {
   padding-left: 15px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -55px -90px;
   background-repeat: no-repeat
 }
@@ -12395,7 +12395,7 @@ a.access-mobile {
   width: 35%;
   cursor: pointer;
   outline: none;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/blank.gif);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/blank.gif);
   z-index: 1102;
   display: none
 }
@@ -12421,12 +12421,12 @@ a.access-mobile {
 }
 
 #fancybox-left-ico {
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -30px
 }
 
 #fancybox-right-ico {
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -60px
 }
 
@@ -12457,13 +12457,13 @@ a.access-mobile {
   top: -20px;
   left: 0;
   width: 100%;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox-x.png)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox-x.png)
 }
 
 #fancy-bg-ne {
   top: -20px;
   right: -20px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -162px
 }
 
@@ -12471,14 +12471,14 @@ a.access-mobile {
   top: 0;
   right: -20px;
   height: 100%;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox-y.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox-y.png);
   background-position: -20px 0px
 }
 
 #fancy-bg-se {
   bottom: -20px;
   right: -20px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -182px
 }
 
@@ -12486,14 +12486,14 @@ a.access-mobile {
   bottom: -20px;
   left: 0;
   width: 100%;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox-x.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox-x.png);
   background-position: 0px -20px
 }
 
 #fancy-bg-sw {
   bottom: -20px;
   left: -20px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -142px
 }
 
@@ -12501,13 +12501,13 @@ a.access-mobile {
   top: 0;
   left: -20px;
   height: 100%;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox-y.png)
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox-y.png)
 }
 
 #fancy-bg-nw {
   top: -20px;
   left: -20px;
-  background-image: url(https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/other/fancybox/fancybox.png);
+  background-image: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/fancybox.png);
   background-position: -40px -122px
 }
 
@@ -12517,8 +12517,11 @@ a.access-mobile {
  */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/web/20150404191535im_/http://www.thinkgeek.com/css/font/fontawesome-webfont.eot?v=4.1.0");
-  src: url("/web/20150404191535im_/http://www.thinkgeek.com/css/font/fontawesome-webfont.eot#iefix&v=4.1.0") format("embedded-opentype"), url("/web/20150404191535im_/http://www.thinkgeek.com/css/font/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("/web/20150404191535im_/http://www.thinkgeek.com/css/font/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("/web/20150404191535im_/http://www.thinkgeek.com/css/font/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.woff") format("woff"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf") format("truetype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/fonts/fontawesome-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal
 }
@@ -14515,7 +14518,7 @@ a.access-mobile {
 }
 
 .slick-loading .slick-list {
-  background: #fff url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/sitewide/other/ajax-loader.gif") center center no-repeat
+  background: #fff url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/ajax-loader.gif") center center no-repeat
 }
 
 .slick-list.dragging {
@@ -14732,7 +14735,7 @@ a.access-mobile {
 }
 
 .tg-holiday #wrapper {
-  background: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-mountainstars1.jpg") repeat-x;
+  background: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-mountainstars1.jpg") repeat-x;
   background-position: 0 -26px
 }
 
@@ -14745,7 +14748,7 @@ a.access-mobile {
   display: block;
   width: 252px;
   height: 78px;
-  background: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-elfbot-header3.gif") no-repeat top left;
+  background: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-elfbot-header3.gif") no-repeat top left;
   background-size: 100%;
   margin: 12px 0 0 127px;
   float: left
@@ -14753,7 +14756,7 @@ a.access-mobile {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .tg-holiday #header-gifts {
-    background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-elfbot-header3@2x.gif")
+    background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-elfbot-header3@2x.gif")
   }
 }
 
@@ -14811,13 +14814,13 @@ a.access-mobile {
 }
 
 .tg-holiday #header-shipping .timmy-shipping-holiday {
-  background: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-timmy.png");
+  background: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-timmy.png");
   background-size: 100%
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .tg-holiday #header-shipping .timmy-shipping-holiday {
-    background-image: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-timmy@2x.png")
+    background-image: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-timmy@2x.png")
   }
 }
 
@@ -14855,7 +14858,7 @@ a.access-mobile {
 }
 
 .tg-holiday #footer-help {
-  background: url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-portal.png") no-repeat 50% 100%, url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-mountains-bottom.png") repeat-x 0 100%;
+  background: url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-portal.png") no-repeat 50% 100%, url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-mountains-bottom.png") repeat-x 0 100%;
   padding-top: 100px;
   padding-bottom: 30px
 }
@@ -14866,7 +14869,7 @@ a.access-mobile {
 
 .tg-holiday #footer-main {
   padding-top: 400px;
-  background: #036 url("https://web.archive.org/web/20150404191535im_/http://a.tgcdn.net/images/themes/2014-holiday/holiday2014-lab.jpg") no-repeat 50% 2em
+  background: #036 url("https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/holiday2014-lab.jpg") no-repeat 50% 2em
 }
 
 /*

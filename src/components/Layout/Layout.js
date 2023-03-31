@@ -17,6 +17,7 @@ const Layout = ({ children }) => {
         <meta name="twitter:site" content="@thinkgeek" />
         <meta name="twitter:creator" content="@thinkgeek" />
         <meta name="twitter:domain" content="thinkgeek.com" />
+
         
         <link
           rel="apple-touch-icon-precomposed"
@@ -38,6 +39,8 @@ const Layout = ({ children }) => {
         />
         <meta name="msapplication-TileColor" content="#0066af" />
         <meta name="msapplication-TileImage" content="/images/win8icon.png" />
+
+        
       </Head>
       <div id="wrapper">
         <Header />
