@@ -106,11 +106,11 @@ export default function Home() {
         <meta property="og:title" content="" />
         <meta
           property="og:url"
-          content={defaultImage.url}
+          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta
           property="og:image"
-          content={defaultImage.url}
+          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta property="og:site_name" content="ThinkGeek" />
         <meta
@@ -125,7 +125,7 @@ export default function Home() {
         />
         <meta
           itemProp="image"
-          content={defaultImage.url}
+          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta
           name="twitter:url"
@@ -140,8 +140,8 @@ export default function Home() {
           name="twitter:image"
           content={defaultImage.url}
         />
-        <meta name="twitter:image:width" content={300} />
-        <meta name="twitter:image:height" content={300} />
+        <meta name="twitter:image:width" content={2400} />
+        <meta name="twitter:image:height" content={1200} />
         <meta name="twitter:label1" content="Price" />
         <meta name="twitter:data1" content={productPrice} />
         <meta name="twitter:label2" content="Category" />
