@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Head from 'next/head'
-import Link from 'next/link'
 
 import Layout from '@/components/Layout';
 
@@ -41,10 +40,7 @@ const productPrice = `$149.99`;
 
 export default function Home() {
 
-  const [attributes, setAttributes] = useState(defaultAttributes);
-  const [image, setImage] = useState(defaultImage);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(false);
+  const attributes = {};
 
   const {
     productTitle = defaultProductTitle, 
@@ -55,37 +51,6 @@ export default function Home() {
     metaDescription = defaultMetaDescription, 
     ogDescription = defaultOgDescription, 
   } = attributes;
-
-  const isGeneratedProduct = productTitle !== defaultProductTitle;
-
-  async function handleOnGenerate(e) {
-    e.preventDefault();
-
-    setIsLoading(true);
-    setAttributes(defaultAttributes);
-    setImage(defaultImage);
-    setError(undefined);
-
-    try {
-      const data = await fetch('/api/product/create').then(res => res.json());
-
-      setAttributes(data.attributes);
-
-      const { image } = await fetch('/api/product/image', {
-        method: 'POST',
-        body: JSON.stringify({
-          description: data.attributes.productAppearance
-        })
-      }).then(res => res.json());
-      
-      setImage(image);
-    } catch(e) {
-      setError(e.message);
-    }
-
-    setIsLoading(false);
-  }
-
 
   return (
     <Layout>
@@ -155,136 +120,11 @@ export default function Home() {
           &nbsp;&nbsp;&gt;&nbsp;
         </p>
         <h1 className="interests title title-page">
-          { productTitle }
+          Gotcha!
         </h1>
       </div>
       <div className="clear" />
-      <div id="product-main">
-        <div id="productimage">
-          <img
-            className="badge-invented"
-            src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/badge_custom.png"
-            alt="Invented at ThinkGeek"
-          />
-          <div className="prod_gallery">
-            <div id="image">
-              <a
-                id="carousel_front"
-                href={defaultImage.url}
-                title=""
-                rel="group1"
-              >
-                <img
-                  width={300}
-                  height={300}
-                  src={image.url}
-                  alt=""
-                  border={0}
-                  style={{ display: "block" }}
-                />
-                <div className="caption">
-                  <p
-                    rel={defaultImage.url}
-                    style={{ display: "block" }}
-                  >
-                    Click to zoom
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-          {/* END CAROUSEL */}
-        </div>
-        <div id="product-details">
-          <div id="top_bullets">
-            <h4 className="prodheader">
-              { productTagline }
-            </h4>
-            <ul>
-              {productDescriptionBullets.map(bullet => {
-                return (
-                  <li key="bullet">{ bullet }</li>
-                );
-              })}
-            </ul>
-            <a id="bullets-read-more" href="#tabs">
-              <i className="icon-arrow-circle-down" />
-              Read more...
-            </a>
-            <hr />
-          </div>
-          <div className="actions clearfix" id="product-actions">
-            <form id="buy" className="clearfix">
-              <h3>{ productPrice }</h3>
-              <p className="availability color-green">
-                <i className="icon-ok" />
-                I&apos;m Sorry, Dave
-              </p>
-              <p />
-              <div className="quantity-box1">
-                <strong>Quantity:</strong>
-                <input
-                  type="text"
-                  name="qty"
-                  id="quantity"
-                  defaultValue={1}
-                  size={3}
-                  maxLength={3}
-                />
-              </div>
-              {!isGeneratedProduct && (
-                <p className="buy_button extra-sku-ui">
-                  {!isLoading && (
-                    <a
-                    className="butt0n butt0n-orange"
-                    href="#"
-                    onClick={handleOnGenerate}
-                    >
-                    Generate
-                    </a>
-                  )}
-                  {isLoading && (
-                    <a
-                    className="butt0n butt0n-orange butt0n-disabled"
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    >
-                      I&apos;m Working Here!
-                    </a>
-                  )}
-                </p>
-              )}
-              { isGeneratedProduct && (
-                <>
-                  <p className="buy_button extra-sku-ui">
-                    <Link className="butt0n butt0n-orange" href="/looflirpa">
-                      Buy Now
-                    </Link>
-                  </p>
-                  <p className="extra-sku-ui">
-                    <span className="fluff">or</span>
-                  </p>
-                  <div className="extra-sku-ui">
-                    <div
-                      id="add-to-wish-list"
-                      className="action action-email-me"
-                    >
-                      <a
-                        href="#"
-                        className="button butt0n"
-                        id="wish-list-add-looflirpa"
-                        onClick={handleOnGenerate}
-                        >
-                          Generate a New One
-                        </a>
-                    </div>
-                  </div>
-                </>
-              )}
-            </form>
-          </div>{" "}
-          {/* #END product-actions */}
-        </div>{" "}
+      <div>
         {/* #END #product-details */}
         {/* Right Side Container */}
         {/* MAIN PRODUCT PAGE */}
@@ -323,21 +163,10 @@ export default function Home() {
           <div id="proddescription">
 
             <h4 className="prodheader">
-              { productTagline }
+              Info
             </h4>
-            { productDescriptionLong }
-            <p>
-              <b>Product Specifications &nbsp;</b>
-            </p>
-            <p />
-            <ul>
-              {productSpecifications.map(spec => {
-                return (
-                  <li key="spec">{ spec }</li>
-                )
-              })}
-            </ul>
-            <p />
+            
+            asdf
           </div>
 
           <div id="bullets"></div>
