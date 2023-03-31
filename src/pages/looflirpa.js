@@ -108,13 +108,13 @@ export default function Home() {
       
       <div className="header">
         <p className="breadcrumb">
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">Home</a>
+          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">Home</a>
           &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/interests/">
             Interests
           </a>
           &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/looflirpa/">
+          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/interests/looflirpa/">
             Amazing Goodies
           </a>
           &nbsp;&nbsp;&gt;&nbsp;
@@ -142,7 +142,7 @@ export default function Home() {
         <ul id="tabs">
           <li>
             <a
-              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+              href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
               className="selected"
             >
               {" "}
@@ -151,7 +151,7 @@ export default function Home() {
           </li>
           <li>
             <a
-              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+              href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
               id="additional-images"
             >
               Additional Images{" "}
@@ -188,7 +188,7 @@ export default function Home() {
             <h3>Timmy and the TG Staff think you&apos;ll like...</h3>
             <ul className="clearfix">
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                   <img
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
                     width={128}
@@ -197,13 +197,13 @@ export default function Home() {
                   />
                 </a>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                     Bag of Holding - Con-Survival Edition
                   </a>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                   <img
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
                     width={128}
@@ -212,13 +212,13 @@ export default function Home() {
                   />
                 </a>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                     D20 Bowl Set
                   </a>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                   <img
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
                     width={128}
@@ -227,13 +227,13 @@ export default function Home() {
                   />
                 </a>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                     D20 Critical Hit Mini Cake Pan
                   </a>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                   <img
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
                     width={128}
@@ -242,7 +242,7 @@ export default function Home() {
                   />
                 </a>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
                     Critical Hit LED D20 Die
                   </a>
                 </p>
@@ -276,7 +276,7 @@ export default function Home() {
         <div className="gutter-right-section">
           <h4>Customer Action Shots</h4>
           <a
-            href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/action-shots"
+            href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/action-shots"
             className="actionshot"
           >
             <img
@@ -294,7 +294,7 @@ export default function Home() {
             <li>
               <a
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
               >
                 <img
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
@@ -303,7 +303,7 @@ export default function Home() {
               </a>
               <p>
                 <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
                   title=" Steam-Powered Gaming Cabinet"
                 >
                   Steam-Powered Gaming Cabinet
@@ -313,7 +313,7 @@ export default function Home() {
             <li>
               <a
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
               >
                 <img
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg "
@@ -322,7 +322,7 @@ export default function Home() {
               </a>
               <p>
                 <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
                   title=" Voltron Cat Condo"
                 >
                   Voltron Cat Condo
@@ -332,7 +332,7 @@ export default function Home() {
             <li>
               <a
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
               >
                 <img
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
@@ -341,7 +341,7 @@ export default function Home() {
               </a>
               <p>
                 <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
                   title="bullet time selfie rig"
                 >
                   &quot;Bullet Time&quot; Selfie Rig
@@ -351,7 +351,7 @@ export default function Home() {
             <li>
               <a
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
+                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljl/"
               >
                 <img
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
@@ -360,7 +360,7 @@ export default function Home() {
               </a>
               <p>
                 <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
+                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljl/"
                   title=" GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
                 >
                   GotG Collector&apos;s Edition Groot Beer and Rocket Fuel
@@ -371,7 +371,7 @@ export default function Home() {
             <li>
               <a
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
+                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljp/"
               >
                 <img
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
@@ -380,7 +380,7 @@ export default function Home() {
               </a>
               <p>
                 <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
+                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljp/"
                   title=" Power Wheels Desert Drifters"
                 >
                   Power Wheels Desert Drifters

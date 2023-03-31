@@ -1,4 +1,10 @@
+@import "@/styles/settings/_settings";
+
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-size: 16px;
@@ -2613,7 +2619,9 @@ fieldset {
 
 #wrapper {
   width: 100%;
-  min-width: 1140px
+  @media (max-width: $breakpoint-max) {
+    min-width: 0;
+  }
 }
 
 #mainwrapper {
@@ -2623,7 +2631,12 @@ fieldset {
 
 .content-container {
   width: 1140px;
-  margin: 0 auto
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-max) {
+    width: 100%;
+    padding: 0 1em;
+  }
 }
 
 #content {
@@ -2631,8 +2644,14 @@ fieldset {
 }
 
 #content.narrow {
+  
   width: 81.4%;
-  float: left
+  float: left;
+
+  @media (max-width: $breakpoint-large) {
+    width: 100%;
+  }
+
 }
 
 #content.full {
@@ -2956,7 +2975,13 @@ fieldset {
   background: url(https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/thinkgeek-logo-tag_2x_ibv5lm) no-repeat;
   background-size: 100%;
   margin: 24px 0 0 -4px;
-  float: left
+  float: left;
+  @media (max-width: $breakpoint-medium) {
+    display: block;
+    margin: 0 auto;
+    transform: translateY(25px);
+    float: none;
+  }
 }
 
 #header-logo img {
@@ -2973,7 +2998,10 @@ fieldset {
   position: relative;
   height: 100%;
   padding: 0;
-  float: right
+  float: right;
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
 }
 
 #header-service, #header-shipping {
@@ -3127,7 +3155,13 @@ fieldset {
 }
 
 .topnav_primary {
-  height: 44px
+  
+  height: 44px;
+
+  @media (max-width: $breakpoint-max) {
+    display:flex;
+  }
+
 }
 
 .topnav_primary>li {
@@ -3248,7 +3282,10 @@ fieldset {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
-  transform: rotate(45deg)
+  transform: rotate(45deg);
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
 }
 
 .topnav_secondary_parent:hover>a i {
@@ -3273,7 +3310,12 @@ fieldset {
   background-color: #dee4e7;
   padding: 2em;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
-  margin-top: -1px
+  margin-top: -1px;
+
+
+  @media (max-width: $breakpoint-medium) {
+    display: none!important;
+  }
 }
 
 .topnav_tertiary_column {
@@ -3481,7 +3523,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 #nav-top-primary #topnav_search {
   width: 440px;
-  padding: 5px 6px 5px 5px
+  padding: 5px 6px 5px 5px;
+  @media (max-width: $breakpoint-max) {
+    width: 200px;
+  }
+  @media (max-width: $breakpoint-large) {
+    display: none;
+  }
 }
 
 #nav-top-primary #topnav_search form {
@@ -3521,7 +3569,10 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
   padding: 0 34px 0 12px;
   border: 0;
   outline: 0;
-  float: left
+  float: left;
+  @media (max-width: $breakpoint-max) {
+    width: 189px;
+  }
 }
 
 #nav-top-primary #topnav_search input[type="text"]:focus {
@@ -3605,7 +3656,11 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 }
 
 #nav-top-primary #topnav_cart {
-  width: 130px
+  width: 130px;
+
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
 }
 
 #nav-top-primary #topnav_cart .topnav_secondary {
@@ -3686,7 +3741,13 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 }
 
 #nav-top-primary #topnav_account {
-  width: 160px
+  
+  width: 160px;
+
+  @media (max-width: $breakpoint-medium) {
+    display: none;
+  }
+
 }
 
 #nav-top-primary #topnav_account.topnav_account_loggedin>a span {
@@ -4149,7 +4210,15 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 }
 
 #nav-top-secondary ul {
-  text-align: center
+  
+  text-align: center;
+
+  @media (max-width: $breakpoint-max) {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+
 }
 
 #nav-top-secondary li {
@@ -4183,12 +4252,16 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 }
 
 #leftnav {
+  
   position: relative;
   z-index: 5;
   width: 16%;
   margin-right: 2.2%;
   margin-left: .3%;
-  float: left
+  float: left;
+  @media (max-width: $breakpoint-large) {
+    display: none;
+  }
 }
 
 #leftnav ul {
@@ -4204,7 +4277,10 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 
 #leftnav .nav a {
   display: block;
-  color: #617179
+  color: #617179;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 #leftnav .nav a:hover {
@@ -4561,12 +4637,18 @@ li.topnav_tertiary_view-all:hover, li.topnav_tertiary_view-all:active {
 }
 
 #footer-help .content-container {
-  padding: 2em 0
+  padding: 2em 0;
+  @media (max-width: $breakpoint-large) {
+    height: 24em;
+  }
 }
 
 #footer-help .footer-link-column {
   margin-right: 4.5em;
-  float: left
+  float: left;
+  @media (max-width: $breakpoint-large) {
+    display: none;
+  }
 }
 
 #footer-help .footer-link-column:first-child {
@@ -6803,10 +6885,17 @@ h3 span.green {
 }
 
 .tg-product #product-main {
+
   position: relative;
   width: 81.15%;
   margin-right: 3.8%;
-  float: left
+  float: left;
+
+  @media (max-width:$breakpoint-max ) {
+    width: 100%;
+    margin-right: 0;
+  }
+
 }
 
 .tg-product #product-main.product-retired {
@@ -6817,7 +6906,10 @@ h3 span.green {
 
 .tg-product #product-details {
   min-height: 400px;
-  padding-left: 325px
+  padding-left: 325px;
+  @media (max-width: $breakpoint-medium) {
+    padding-left: 0;
+  }
 }
 
 .tg-product #top_bullets ul, .tg-product #top_bullets p, .tg-product #top_bullets>a, .tg-product #top_brief ul, .tg-product #top_brief p, .tg-product #top_brief>a {
@@ -7379,7 +7471,6 @@ h3 span.green {
 .tg-product #product-actions #add-to-wish-list {
   position: relative;
   z-index: 15;
-  margin-top: .5em;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -7613,7 +7704,7 @@ h3 span.green {
 }
 
 .tg-product #window-wish-list-new .text input, .tg-product #window-wish-list-new .text textarea {
-  width: 100%%
+  width: 100%
 }
 
 .tg-product #window-wish-list-new .check {
@@ -7721,13 +7812,21 @@ h3 span.green {
 .tg-product #upsells ul {
   list-style: none;
   padding: 0;
-  margin: 0
+  margin: 0;
+  @media (max-width: $breakpoint-large) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .tg-product #upsells li {
   width: 16.95%;
   margin-right: 3.8%;
-  float: left
+  float: left;
+  @media (max-width: $breakpoint-large) {
+    min-width: 8em;
+  }
 }
 
 .tg-product #upsells li.last {
@@ -7755,12 +7854,18 @@ h3 span.green {
 }
 
 .tg-product #gutter-right {
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 15%;
   margin-right: 0;
-  float: left
+  float: left;
+
+  @media (max-width:$breakpoint-max ) {
+    display: none;
+  }
+
 }
 
 .tg-product .gutter-right-section {
@@ -8586,7 +8691,10 @@ h3 span.green {
 .tg-product #productimage {
   position: absolute;
   top: 0;
-  left: 0
+  left: 0;
+  @media (max-width: $breakpoint-medium) {
+    position: static;
+  }
 }
 
 .tg-product #productimage .badge-invented {
@@ -8713,7 +8821,21 @@ h3 span.green {
 
 .tg-product #image {
   height: 325px;
-  width: 300px
+  width: 300px;
+  
+  @media (max-width: $breakpoint-medium) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  img {
+    @media (max-width: $breakpoint-medium) {
+      width: 100%;
+      height: auto;
+    }
+  }
+
 }
 
 .tg-product #image a {
@@ -8742,7 +8864,11 @@ h3 span.green {
 .tg-product .prod_gallery {
   position: relative;
   width: 300px;
-  height: 400px
+  height: 400px;
+  @media (max-width: $breakpoint-medium) {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .tg-product #image .caption, .tg-product #image .carousel_caption_wrap {
@@ -8755,7 +8881,10 @@ h3 span.green {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-top: .5em
+  margin-top: .5em;
+  @media (max-width: $breakpoint-medium) {
+    top: 100%;
+  }
 }
 
 .tg-product #image .caption p, .tg-product #image .carousel_caption {
@@ -12127,25 +12256,6 @@ form.form p label, form.form p input, form.form p select {
   width: 570px
 }
 
-#mobile-notice {
-  position: relative;
-  z-index: 9999;
-  min-width: 1140px;
-  width: 100%;
-  background: #dee4e7
-}
-
-#mobile-notice div {
-  padding: 44px
-}
-
-#mobile-notice p {
-  font-size: 42px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 48px;
-  margin: 0 0 30px
-}
 
 a.access-mobile {
   display: block;
@@ -14830,7 +14940,7 @@ a.access-mobile {
 
 .tg-holiday #nav-top-primary>.content-container {
   background: #0c1921;
-  border-radius: 0.4em 0
+  border-radius: 0.4em 0;
 }
 
 .tg-holiday #nav-top-primary #topnav_category:before {

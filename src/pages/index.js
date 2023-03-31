@@ -37,8 +37,6 @@ const defaultProductSpecifications = [
 const defaultMetaDescription = 'Equipped with advanced replicator technology and a range of user-friendly features, this cutting-edge 3D printer that can bring your wildest imaginations to life. With a maximum print volume of 300 mm x 300 mm x 300 mm and compatibility with a variety of printing materials, this printer is perfect for hobbyists, engineers, and anyone who wants to step into the future of printing technology. Get your hands on the Replicator 2320 and start creating today!';
 const defaultOgDescription = 'Revolutionize the way you create with the ThinkGeek Replicator 2320! This cutting-edge 3D printer is equipped with advanced replicator technology, user-friendly features, and a sturdy construction built to last. Whether you\'re a hobbyist, engineer, or mad scientist, the Replicator 2320 is the perfect tool for bringing your wildest imaginations to life. Get yours today and step into the future of printing technology!';
 
-const productPrice = `$149.99`;
-
 export default function Home() {
 
   const [attributes, setAttributes] = useState(defaultAttributes);
@@ -51,6 +49,7 @@ export default function Home() {
     productTagline = defaultProductTagline, 
     productDescriptionLong = defaultProductDescriptionLong, 
     productDescriptionBullets= defaultProductDescriptionBullets,
+    productPrice,
     productSpecifications = defaultProductSpecifications,
     metaDescription = defaultMetaDescription, 
     ogDescription = defaultOgDescription, 
@@ -63,11 +62,20 @@ export default function Home() {
 
     setIsLoading(true);
     setAttributes(defaultAttributes);
-    setImage(defaultImage);
+    setImage({
+      url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292619/thinkgeek-product-generator/in-progress_hv0mzd.png'
+    });
     setError(undefined);
 
     try {
       const data = await fetch('/api/product/create').then(res => res.json());
+
+      if ( !data.attributes || !data.attributes.productTitle ) {
+        setImage(defaultImage);
+        setError('Uh oh, something happened. Try again!');
+        setIsLoading(false);
+        return;
+      }
 
       setAttributes(data.attributes);
 
@@ -215,12 +223,16 @@ export default function Home() {
           </div>
           <div className="actions clearfix" id="product-actions">
             <form id="buy" className="clearfix">
-              <h3>{ productPrice }</h3>
-              <p className="availability color-green">
-                <i className="icon-ok" />
-                I&apos;m Sorry, Dave
-              </p>
-              <p />
+              {productPrice && (
+                <>
+                  <h3>{ productPrice }</h3>
+                  <p className="availability color-green">
+                    <i className="icon-ok" />
+                    I&apos;m Sorry, Dave
+                  </p>
+                  <p />
+                </>
+              )}
               <div className="quantity-box1">
                 <strong>Quantity:</strong>
                 <input
@@ -282,6 +294,9 @@ export default function Home() {
                 </>
               )}
             </form>
+            {error && (
+              <p><strong>{ error }</strong></p>
+            )}
           </div>{" "}
           {/* #END product-actions */}
         </div>{" "}

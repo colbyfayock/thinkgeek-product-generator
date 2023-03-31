@@ -94,22 +94,6 @@ const Layout = ({ children }) => {
                   </a>
                 </li>
               </ul>
-              {/* LOWERLEFTNAV */}
-              <div className="signup leftnav-section">
-                <h5>Sign up for geek-mail</h5>
-                <form
-                  className="newsletter-form clearfix"
-                  method="post"
-                >
-                  <input type="text" placeholder="timmy@email.com" name="signup" />
-                  <input
-                    className="butt0n butt0n-blue butt0n-full"
-                    type="submit"
-                    defaultValue="Go"
-                  />
-                </form>
-              </div>
-              {/* END LOWERLEFTNAV */}
             </div>
             <div id="content" className="content-main narrow">
               {children}

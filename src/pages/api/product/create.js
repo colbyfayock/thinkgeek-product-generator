@@ -17,13 +17,15 @@ export default async function handler() {
           content: `Create a new ThinkGeek April Fools product with the following unique attributes:
           - Product Title
           - Product Tagline
+          - A price in USD
           - Long product description
           - Clever product bullet points
           - Product specifications including technical details
           - The product's appearance and what it looks like visually in less than 600 characters
           - An SEO meta description for the product
           - A social media Open Graph description for the product
-          Format the response in the following JSON object ${JSON.stringify(PRODUCT_ATTRIBUTES)}.`
+          Format the response in a parseable JSON object with the format: ${JSON.stringify(PRODUCT_ATTRIBUTES)}.
+          the response must be able to be parsed with JSON.parse.`
         }]
       }),
       headers: {
@@ -32,8 +34,8 @@ export default async function handler() {
       },
     }).then(r => r.json());
 
-    console.log(`Results: ${JSON.stringify(results)}}`);
-    
+    console.log(results.choices[0].message.content);
+
     const attributes = JSON.parse(results.choices[0].message.content);
 
     return new Response(
