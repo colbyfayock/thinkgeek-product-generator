@@ -147,6 +147,7 @@ export default function Home() {
         <meta name="twitter:label2" content="Category" />
         <meta name="twitter:data2" content="Interests :: Amazing Goodies" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://www.thinkgeek.app/" />
       </Head>
       
       
@@ -306,13 +307,10 @@ export default function Home() {
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
           <span className="social-button-pinterest">
-            SHARE
-          </span>
-          <span className="social-button-gplus">
-            SHARE
-          </span>
-          <span className="social-button-wanelo">
-            SHARE
+            <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
+              Tweet
+            </a>
           </span>
         </div>
         <ul id="tabs">
