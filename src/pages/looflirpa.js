@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Layout from '@/components/Layout';
 
@@ -103,6 +104,7 @@ export default function Home() {
         <meta name="twitter:data1" content={productPrice} />
         <meta name="twitter:label2" content="Category" />
         <meta name="twitter:data2" content="Interests :: Amazing Goodies" />
+        <link rel="canonical" href="https://www.thinkgeek.app/  " />
       </Head>
       
       
@@ -127,16 +129,20 @@ export default function Home() {
       <div>
         {/* #END #product-details */}
         {/* Right Side Container */}
+        <h2>April Fools!</h2>
+        <p style={{fontSize: '1.6em'}}>We got you sooooo bad... right?</p>
+        <p style={{fontSize: '1.2em'}}>Anyways, go generate a new one or trick your friends 👀</p>
+        <p  style={{ marginBottom: '5em'}}>
+          <Link href="/" style={{ fontSize: '1.2em', fontWeight: 'bold'}}>Generate a New One</Link>
+        </p>
+
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
           <span className="social-button-pinterest">
-            SHARE
-          </span>
-          <span className="social-button-gplus">
-            SHARE
-          </span>
-          <span className="social-button-wanelo">
-            SHARE
+            <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
+              Tweet
+            </a>
           </span>
         </div>
         <ul id="tabs">
@@ -163,233 +169,52 @@ export default function Home() {
           <div id="proddescription">
 
             <h4 className="prodheader">
-              Info
+              How does this work?
             </h4>
             
-            asdf
+            <p>
+              This project uses OpenAI to first generate a product with ChatGPT.
+            </p>
+
+            <p>
+              That description is fed into DALL-E to generate an image.
+            </p>
+
+            <p>
+              The assets are delivered with <a href="https://cloudinary.com/">Cloudinary</a> from a Next.js app.
+            </p>
+
+            <h4 className="prodheader">
+              Learn how to use the ChatGPT and DALL-E APIs
+            </h4>
+
+            <p>
+              <a href="https://www.youtube.com/watch?v=BQPqqQLGweM">Pokémon Generator with ChatGPT & DALL-E API in Next.js</a>
+            </p>
+
+            <h4 className="prodheader">
+              Learn how to optimize images in Next.js
+            </h4>
+
+            <p>
+              <a href="https://www.youtube.com/watch?v=7lhUsK-FxYI">Optimize Images, Responsive Sizing, & AI Cropping in Next.js with Next Cloudinary</a>
+            </p>
+
+            <h4 className="prodheader">
+              Learn how to upload images in Next.js
+            </h4>
+
+            <p>
+              <a href="https://www.youtube.com/watch?v=82gACPNBkaM">Upload Images to Cloudinary in React & Next.js</a>
+            </p>
           </div>
 
-          <div id="bullets"></div>
-          
-          <div className="page-actions actions">
-            <ul className="nav">
-              <li className="nav-01">
-                <a
-                  className="butt0n butt0n-blue control scroll-top"
-                  href="#mainwrapper"
-                >
-                  Back to Product Details!
-                  <i className="icon-chevron-up" />
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div id="upsells">
-            <h3>Timmy and the TG Staff think you&apos;ll like...</h3>
-            <ul className="clearfix">
-              <li>
-                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                  <img
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
-                    width={128}
-                    height={128}
-                    alt="Bag of Holding - Con-Survival Edition"
-                  />
-                </a>
-                <p>
-                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                    Bag of Holding - Con-Survival Edition
-                  </a>
-                </p>
-              </li>
-              <li>
-                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                  <img
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
-                    width={128}
-                    height={128}
-                    alt="D20 Bowl Set"
-                  />
-                </a>
-                <p>
-                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                    D20 Bowl Set
-                  </a>
-                </p>
-              </li>
-              <li>
-                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                  <img
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
-                    width={128}
-                    height={128}
-                    alt="D20 Critical Hit Mini Cake Pan"
-                  />
-                </a>
-                <p>
-                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                    D20 Critical Hit Mini Cake Pan
-                  </a>
-                </p>
-              </li>
-              <li>
-                <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                  <img
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
-                    width={128}
-                    height={128}
-                    alt="Critical Hit LED D20 Die"
-                  />
-                </a>
-                <p>
-                  <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">
-                    Critical Hit LED D20 Die
-                  </a>
-                </p>
-              </li>
-              <li className="last">
-                <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/">
-                  <img
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
-                    alt="Gift Certificates"
-                    width={128}
-                    height={128}
-                  />
-                </a>
-                <p>
-                  <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/">
-                    Gift Certificates
-                  </a>
-                </p>
-              </li>
-            </ul>
-            <div className="clear" />
-          </div>{" "}
           {/* #END #upsells */}
         </div>{" "}
         {/* #END #contentblob */}
       </div>{" "}
       {/* #END #product-main */}
-      <div id="gutter-right">
-        {/* Alternate Styles */}
-        {/* Customer Action Shots */}
-        <div className="gutter-right-section">
-          <h4>Customer Action Shots</h4>
-          <a
-            href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/action-shots"
-            className="actionshot"
-          >
-            <img
-              src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/suyas-icon.gif"
-              alt="Send us your action shots!"
-              width={108}
-              height={58}
-            />
-          </a>
-        </div>
 
-        <div id="gutter-right-also" className="gutter-right-section">
-          <h4>Your Fellow Smart Masses Also Bought</h4>
-          <ul>
-            <li>
-              <a
-                className="also-bought-image"
-                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-              >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
-                  alt="Steam-Powered Gaming Cabinet"
-                />
-              </a>
-              <p>
-                <a
-                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-                  title=" Steam-Powered Gaming Cabinet"
-                >
-                  Steam-Powered Gaming Cabinet
-                </a>
-              </p>
-            </li>
-            <li>
-              <a
-                className="also-bought-image"
-                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-              >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg "
-                  alt="Voltron Cat Condo"
-                />
-              </a>
-              <p>
-                <a
-                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-                  title=" Voltron Cat Condo"
-                >
-                  Voltron Cat Condo
-                </a>
-              </p>
-            </li>
-            <li>
-              <a
-                className="also-bought-image"
-                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-              >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
-                  alt="bullet time selfie rig"
-                />
-              </a>
-              <p>
-                <a
-                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/"
-                  title="bullet time selfie rig"
-                >
-                  &quot;Bullet Time&quot; Selfie Rig
-                </a>
-              </p>
-            </li>
-            <li>
-              <a
-                className="also-bought-image"
-                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljl/"
-              >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
-                  alt="GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
-                />
-              </a>
-              <p>
-                <a
-                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljl/"
-                  title=" GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
-                >
-                  GotG Collector&apos;s Edition Groot Beer and Rocket Fuel
-                  Two-Pack
-                </a>
-              </p>
-            </li>
-            <li>
-              <a
-                className="also-bought-image"
-                href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljp/"
-              >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
-                  alt="Power Wheels Desert Drifters"
-                />
-              </a>
-              <p>
-                <a
-                  href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/iljp/"
-                  title=" Power Wheels Desert Drifters"
-                >
-                  Power Wheels Desert Drifters
-                </a>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
       <div className="clear" />
       
     </Layout>
