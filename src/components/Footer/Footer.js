@@ -123,7 +123,7 @@ const Footer = ({ ...rest }) => {
             </ul>
           </div>
           <div className="footer-link-column last">
-            <h4>Come to the "not-so-dark" side</h4>
+            <h4>Come to the &quot;not-so-dark&quot; side</h4>
             <ul className="list-clean">
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/index.cgi">

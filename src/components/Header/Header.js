@@ -45,7 +45,7 @@ const Header = () => {
                     <strong>FREE SHIPPING</strong> ON ORDERS $75+
                   </h3>
                   <span>
-                    US ECONOMY ONLY • NO CODE • DOESN'T COMBINE WITH OTHER OFFERS
+                    US ECONOMY ONLY • NO CODE • DOESN&apos;T COMBINE WITH OTHER OFFERS
                   </span>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Header = () => {
                             </li>
                             <li>
                               <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/womens/">
-                                Women's Tops, Tanks &amp; Babydolls
+                                Women&apos;s Tops, Tanks &amp; Babydolls
                               </a>
                             </li>
                             <li>
@@ -1359,7 +1359,7 @@ const Header = () => {
             <ul>
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/whats-new/">
-                  What's New
+                  What&apos;s New
                 </a>
               </li>
               <li>

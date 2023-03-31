@@ -594,7 +594,7 @@ export default function Home() {
             </ul>
           </div>
           <div id="upsells">
-            <h3>Timmy and the TG Staff think you'll like...</h3>
+            <h3>Timmy and the TG Staff think you&apos;ll like...</h3>
             <ul className="clearfix">
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/product/1a1d/">
@@ -771,7 +771,7 @@ export default function Home() {
                   href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljo/"
                   title="bullet time selfie rig"
                 >
-                  "Bullet Time" Selfie Rig
+                  &quot;Bullet Time&quot; Selfie Rig
                 </a>
               </p>
             </li>
@@ -790,7 +790,7 @@ export default function Home() {
                   href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
                   title=" GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
                 >
-                  GotG Collector's Edition Groot Beer and Rocket Fuel
+                  GotG Collector&apos;s Edition Groot Beer and Rocket Fuel
                   Two-Pack
                 </a>
               </p>
