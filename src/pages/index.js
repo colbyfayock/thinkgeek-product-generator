@@ -230,31 +230,25 @@ export default function Home() {
                 />
               </div>
               <p className="buy_button extra-sku-ui">
-                <a
-                  className="butt0n butt0n-orange"
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/42.shtml?apc=encounter"
-                  onClick={handleOnGenerate}
-                >
-                  Generate
-                </a>
-              </p>
-              <p className="extra-sku-ui">
-                <span className="fluff">or</span>
-              </p>
-              <div className="extra-sku-ui">
-                <div
-                  id="add-to-wish-list"
-                  className="action action-email-me"
-                >
+                {!isLoading && (
                   <a
-                    href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/42.shtml?apc=encounter"
-                    className="button butt0n"
-                    id="wish-list-add-looflirpa"
+                  className="butt0n butt0n-orange"
+                  href="#"
+                  onClick={handleOnGenerate}
                   >
-                    Add to Wish List
+                  Generate
                   </a>
-                </div>
-              </div>
+                )}
+                {isLoading && (
+                  <a
+                  className="butt0n butt0n-orange butt0n-disabled"
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
+                  >
+                    I&apos;m Working Here!
+                  </a>
+                )}
+              </p>
             </form>
           </div>{" "}
           {/* #END product-actions */}
@@ -432,25 +426,7 @@ export default function Home() {
             />
           </a>
         </div>
-        {/* END Customer Action Shots */}
-        <div id="sidebar_video" className="gutter-right-section">
-          <h4>Watch the Video</h4>
-          <div
-            style={{
-              background:
-                "url(https://web.archive.org/web/20150404213211im_/http://img.youtube.com/vi/ZBc_DlkLtN0/default.jpg) no-repeat"
-            }}
-          >
-            <a href="#videos">
-              <img
-                width={114}
-                height={85}
-                src="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680276139/thinkgeek-product-generator/youtube_play.png"
-              />
-            </a>
-          </div>
-        </div>
-        {/* Also Bought Upsells */}
+
         <div id="gutter-right-also" className="gutter-right-section">
           <h4>Your Fellow Smart Masses Also Bought</h4>
           <ul>

@@ -7053,7 +7053,7 @@ h3 span.green {
 }
 
 .tg-product #product-actions .buy_button .butt0n, .tg-product #product-actions .buy_button .tg-help #help-livechat-link>a, .tg-help .tg-product #product-actions .buy_button #help-livechat-link>a, .tg-product #product-actions .buy_button .tg-help [id*="help-livechat-link-"]>a, .tg-help .tg-product #product-actions .buy_button [id*="help-livechat-link-"]>a, .tg-product #product-actions .buy_button .tg-help #help-livechat-link>span, .tg-help .tg-product #product-actions .buy_button #help-livechat-link>span, .tg-product #product-actions .buy_button .tg-help [id*="help-livechat-link-"]>span, .tg-help .tg-product #product-actions .buy_button [id*="help-livechat-link-"]>span {
-  width: 10em;
+  width: 12em;
   font-size: 1.1em;
   outline: 0
 }
