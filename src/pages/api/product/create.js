@@ -13,11 +13,9 @@ export default async function handler() {
       body: JSON.stringify({
         model: 'gpt-3.5-turbo',
         messages: [{
-          role: 'system',
-          content: `You are a product inventor for ThnkGeek and know everything about geek culture`
-        },{
           role: 'user',
-          content: `Create a fake, new ThinkGeek April Fools product that people may think is real but isn't, with the following unique attributes:
+          content: `You are a product inventor for ThnkGeek and know everything about geek culture.
+          Create a fake, new ThinkGeek April Fools product that people may think is real but isn't, with the following unique attributes:
           - Product Title
           - Product Tagline
           - A price in USD
