@@ -74,33 +74,26 @@ export default function Home() {
         <link rel="canonical" href="https://www.thinkgeek.app/  " />
       </Head>
       
-      
-      <div className="header">
-        <p className="breadcrumb">
-          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/">Home</a>
-          &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/interests/">
-            Interests
-          </a>
-          &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150401044600/http://www.thinkgeek.com/interests/looflirpa/">
-            Amazing Goodies
-          </a>
-          &nbsp;&nbsp;&gt;&nbsp;
-        </p>
-        <h1 className="interests title title-page">
-          Gotcha!
-        </h1>
-      </div>
-      <div className="clear" />
+
       <div style={{ fontSize: '1.2em' }}>
         {/* #END #product-details */}
         {/* Right Side Container */}
-        <h2>April Fools!</h2>
-        <p style={{fontSize: '1.6em'}}>We got you sooooo bad... right?</p>
-        <p style={{fontSize: '1.2em'}}>Anyways, go generate a new one or trick your friends 👀</p>
+        <h1 style={{marginTop: 0}}>Gotcha!</h1>
+        
+        <p style={{fontSize: '1.6em'}}>I know you were looking forward to printing the Portable Hug Machine, or didn't you get that one?</p>
+
+        <p style={{fontSize: '1.2em'}}>Anyways, go generate a new one or trick your friends!</p>
+
         <p  style={{ marginBottom: '2em'}}>
           <Link href="/" style={{ fontSize: '1.2em', fontWeight: 'bold'}}>Generate a New One</Link>
+        </p>
+
+        <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
+          What&apos;s all this fuss about?
+        </h4>
+
+        <p>
+          Behold!  <a href="https://www.engadget.com/2014-04-01-thinkgeek-april-fools.html">The tale of ThinkGeek Looflirpa.</a>
         </p>
 
         <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
@@ -116,7 +109,7 @@ export default function Home() {
         </p>
 
         <p>
-          The assets are delivered with <a href="https://cloudinary.com/">Cloudinary</a> from a Next.js app.
+          The assets are uploaded to and delivered from <a href="https://cloudinary.com/?utm_campaign=devx_aprilfools&utm_medium=referral">Cloudinary</a>.
         </p>
 
         <h4 className="prodheader" style={{ marginTop: '2.5em'}}>
