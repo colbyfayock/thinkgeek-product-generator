@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -49,34 +50,34 @@ const Layout = ({ children }) => {
             <div id="leftnav" className="leftnav">
               <ul className="nav">
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/">
+                  <Link href="/looflirpa">
                     T-Shirts &amp; Apparel
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/">
+                  <Link href="/looflirpa">
                     Geek Toys
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/">
+                  <Link href="/looflirpa">
                     Electronics &amp; Gadgets
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/">
+                  <Link href="/looflirpa">
                     Home &amp; Office
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/">
+                  <Link href="/looflirpa">
                     Tools, Outdoor &amp; Survival
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/">
+                  <Link href="/looflirpa">
                     Geek Kids
-                  </a>
+                  </Link>
                 </li>
                 <li className="hr" />
                 <li className="nav-extras nav-sale">
@@ -88,9 +89,9 @@ const Layout = ({ children }) => {
                   </a>
                 </li>
                 <li className="nav-extras">
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/order/certificate.cgi">
+                  <Link href="/looflirpa">
                     Gift Certificates
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

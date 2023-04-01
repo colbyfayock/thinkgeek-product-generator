@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Container from '@/components/Container';
 
 import styles from './Footer.module.scss';
@@ -11,59 +12,59 @@ const Footer = ({ ...rest }) => {
             <h4>Customer Service</h4>
             <ul className="list-clean">
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/returns.shtml">
+                <Link href="/looflirpa">
                   Returns &amp; Exchanges
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/history.cgi">
+                <Link href="/looflirpa">
                   Order Status
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/shipping.shtml">
+                <Link href="/looflirpa">
                   Shipping
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/accounts.shtml">
+                <Link href="/looflirpa">
                   Accounts
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/ordering.shtml">
+                <Link href="/looflirpa">
                   Ordering
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/sizing-info.shtml">
+                <Link href="/looflirpa">
                   Size Charts
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/gifts.shtml">
+                <Link href="/looflirpa">
                   Gift Options
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/order/certificate.cgi">
+                <Link href="/looflirpa">
                   Gift Certificates
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/shipping.shtml/#international-shipping">
+                <Link href="/looflirpa">
                   International Orders
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/privacy.shtml">
+                <Link href="/looflirpa">
                   Privacy &amp; Security
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/terms-of-use.shtml">
+                <Link href="/looflirpa">
                   Terms of Use
-                </a>
+                </Link>
               </li>
               <li id="footer-livechat-container">
                 <a id="rn_sccl_footer_Link" href="#">
@@ -76,49 +77,49 @@ const Footer = ({ ...rest }) => {
             <h4>About ThinkGeek</h4>
             <ul className="list-clean">
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/about-us/">
+                <Link href="/looflirpa">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/jobs/">
+                <Link href="/looflirpa">
                   Jobs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/blog/">
+                <Link href="/looflirpa">
                   Our Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/news-press.shtml">
+                <Link href="/looflirpa">
                   Press
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help/">
+                <Link href="/looflirpa">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/newsletter.shtml">
+                <Link href="/looflirpa">
                   Newsletter
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/volume/">
+                <Link href="/looflirpa">
                   Volume Purchases
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/affiliates/">
+                <Link href="/looflirpa">
                   Affiliates
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/site-index/">
+                <Link href="/looflirpa">
                   Sitemap
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -126,44 +127,44 @@ const Footer = ({ ...rest }) => {
             <h4>Come to the &quot;not-so-dark&quot; side</h4>
             <ul className="list-clean">
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/index.cgi">
+                <Link href="/looflirpa">
                   Account
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/history.cgi">
+                <Link href="/looflirpa">
                   Order Management
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geekpoints/">
+                <Link href="/looflirpa">
                   GeekPoints
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/passwd.cgi">
+                <Link href="/looflirpa">
                   Forgot Password
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/wishes.cgi">
+                <Link href="/looflirpa">
                   Wish Lists
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/rma/">
+                <Link href="/looflirpa">
                   Return Requests
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/account/places.cgi">
+                <Link href="/looflirpa">
                   Address Book
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/action-shots/">
+                <Link href="/looflirpa">
                   Submit Action Shot
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -179,60 +180,39 @@ const Footer = ({ ...rest }) => {
             </p>
             <ul>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.facebook.com/thinkgeek"
-                  title="ThinkGeek on Facebook"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Facebook">
                   <i className="icon-facebook" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.twitter.com/thinkgeek"
-                  title="ThinkGeek on Twitter"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Twitter">
                   <i className="icon-twitter" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/https://plus.google.com/111086949937726998175"
-                  title="ThinkGeek on Google+"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Google+">
                   <i className="icon-google-plus" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.pinterest.com/thinkgeek/"
-                  title="ThinkGeek on Pinterest"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Pinterest">
                   <i className="icon-pinterest" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.instagram.com/thinkgeek"
-                  title="ThinkGeek on Instagram"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Instagram">
                   <i className="icon-instagram" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.vine.co/thinkgeek"
-                  title="ThinkGeek on Vine"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on Vine">
                   <i className="icon-vine" />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://youtube.com/thinkgeek"
-                  title="ThinkGeek on YouTube"
-                >
+                <Link href="/looflirpa" title="ThinkGeek on YouTube">
                   <i className="icon-youtube" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -268,54 +248,39 @@ const Footer = ({ ...rest }) => {
               </li>
               {/* Bizrate */}
               <li>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.bizrate.com/ratings_guide/cust_reviews__mid--134956.html"
-                  target="_blank"
-                >
+                <Link href="/looflirpa" target="_blank">
                   <img
                     src="https://web.archive.org/web/20150404213211im_/https://medals.bizrate.com/medals/dynamic/134956_medal.gif"
                     alt="BizRate Customer Certified (GOLD) Site"
                     width={75}
                     height={44}
                   />
-                </a>
+                </Link>
               </li>
               {/* End Bizrate */}
               {/* BBB */}
               <li>
                 <span className="seals-column">
-                  <a
-                    href="https://web.archive.org/web/20150404213211/http://www.bbb.org/washington-dc-eastern-pa/business-reviews/internet-shopping/think-geek-inc-in-fairfax-va-23008816/"
-                    target="_blank"
-                  >
+                  <Link href="/looflirpa">
                     <img
                       src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/sitewide/seals/bbb-sm.png"
                       style={{ height: 44, border: 0, borderRadius: 3 }}
                       alt="Better Business Bureau"
                     />
-                  </a>
+                  </Link>
                 </span>
               </li>
               {/* End BBB */}
             </ul>
             <p>
               © Copyright 1999-2015{" "}
-              <a
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
-                title="ThinkGeek"
-              >
+              <Link href="/looflirpa" title="ThinkGeek">
                 ThinkGeek, Inc.
-              </a>{" "}
+              </Link>{" "}
               All Rights Reserved
             </p>
             <p id="footer-copyright">
-              ThinkGeek is a{" "}
-              <a
-                className="ir"
-                href="https://web.archive.org/web/20150404213211/http://www.geek.net/"
-                title="GeekNet"
-              />{" "}
-              Company
+              ThinkGeek is a GeekNet
             </p>
           </div>
         </div>

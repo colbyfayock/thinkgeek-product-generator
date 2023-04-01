@@ -155,15 +155,14 @@ export default function Home() {
       
       <div className="header">
         <p className="breadcrumb">
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">Home</a>
           &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+          <Link href="/looflirpa">
             Interests
-          </a>
+          </Link>
           &nbsp;&nbsp;&gt;&nbsp;
-          <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/looflirpa/">
+          <Link href="/looflirpa">
             Amazing Goodies
-          </a>
+          </Link>
           &nbsp;&nbsp;&gt;&nbsp;
         </p>
         <h1 className="interests title title-page">
@@ -182,9 +181,9 @@ export default function Home() {
           />
           <div className="prod_gallery">
             <div id="image">
-              <a
+              <Link
                 id="carousel_front"
-                src={image?.url || defaultImage.url}
+                href={image?.url || defaultImage.url}
                 title=""
                 rel="group1"
               >
@@ -203,7 +202,7 @@ export default function Home() {
                     Click to zoom
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           {/* END CAROUSEL */}
@@ -252,22 +251,22 @@ export default function Home() {
               {!isGeneratedProduct && (
                 <p className="buy_button extra-sku-ui">
                   {!isLoading && (
-                    <a
+                    <Link
                     className="butt0n butt0n-orange"
-                    href="#"
+                    href="/looflirpa"
                     onClick={handleOnGenerate}
                     >
                     Generate
-                    </a>
+                    </Link>
                   )}
                   {isLoading && (
-                    <a
+                    <Link
                     className="butt0n butt0n-orange butt0n-disabled"
-                    href="#"
+                    href="/looflirpa"
                     onClick={(e) => e.preventDefault()}
                     >
                       I&apos;m Working Here!
-                    </a>
+                    </Link>
                   )}
                 </p>
               )}
@@ -286,14 +285,14 @@ export default function Home() {
                       id="add-to-wish-list"
                       className="action action-email-me"
                     >
-                      <a
-                        href="#"
+                      <Link
+                        href="/looflirpa"
                         className="button butt0n"
                         id="wish-list-add-looflirpa"
                         onClick={handleOnGenerate}
                         >
                           Generate a New One
-                        </a>
+                        </Link>
                     </div>
                   </div>
                 </>
@@ -320,21 +319,21 @@ export default function Home() {
         </div>
         <ul id="tabs">
           <li>
-            <a
-              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+            <Link
+              href="/looflirpa"
               className="selected"
             >
               {" "}
               Main Description{" "}
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+            <Link
+              href="/looflirpa"
               id="additional-images"
             >
               Additional Images{" "}
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="contentblob">
@@ -364,13 +363,13 @@ export default function Home() {
           <div className="page-actions actions">
             <ul className="nav">
               <li className="nav-01">
-                <a
+                <Link
                   className="butt0n butt0n-blue control scroll-top"
-                  href="#mainwrapper"
+                  href="/looflirpa"
                 >
                   Back to Product Details!
                   <i className="icon-chevron-up" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -378,78 +377,78 @@ export default function Home() {
             <h3>Timmy and the TG Staff think you&apos;ll like...</h3>
             <ul className="clearfix">
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <Link href="/looflirpa">
                   <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
                     width={128}
                     height={128}
                     alt="Bag of Holding - Con-Survival Edition"
                   />
-                </a>
+                </Link>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <Link href="/looflirpa">
                     Bag of Holding - Con-Survival Edition
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <Link href="/looflirpa">
                   <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
                     width={128}
                     height={128}
                     alt="D20 Bowl Set"
                   />
-                </a>
+                </Link>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <Link href="/looflirpa">
                     D20 Bowl Set
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <Link href="/looflirpa">
                   <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
                     width={128}
                     height={128}
                     alt="D20 Critical Hit Mini Cake Pan"
                   />
-                </a>
+                </Link>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <Link href="/looflirpa">
                     D20 Critical Hit Mini Cake Pan
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                <Link href="/looflirpa">
                   <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
                     width={128}
                     height={128}
                     alt="Critical Hit LED D20 Die"
                   />
-                </a>
+                </Link>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
+                  <Link href="/looflirpa">
                     Critical Hit LED D20 Die
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li className="last">
-                <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/">
+                <Link href="/looflirpa">
                   <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
                     alt="Gift Certificates"
                     width={128}
                     height={128}
                   />
-                </a>
+                </Link>
                 <p>
-                  <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/">
+                  <Link href="/looflirpa">
                     Gift Certificates
-                  </a>
+                  </Link>
                 </p>
               </li>
             </ul>
@@ -465,8 +464,8 @@ export default function Home() {
         {/* Customer Action Shots */}
         <div className="gutter-right-section">
           <h4>Customer Action Shots</h4>
-          <a
-            href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/action-shots"
+          <Link
+            href="/looflirpa"
             className="actionshot"
           >
             <CldImage
@@ -475,16 +474,16 @@ export default function Home() {
               width={108}
               height={58}
             />
-          </a>
+          </Link>
         </div>
 
         <div id="gutter-right-also" className="gutter-right-section">
           <h4>Your Fellow Smart Masses Also Bought</h4>
           <ul>
             <li>
-              <a
+              <Link
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="/looflirpa"
               >
                 <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
@@ -492,20 +491,20 @@ export default function Home() {
                   width="115"
                   height="115"
                 />
-              </a>
+              </Link>
               <p>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                <Link
+                  href="/looflirpa"
                   title=" Steam-Powered Gaming Cabinet"
                 >
                   Steam-Powered Gaming Cabinet
-                </a>
+                </Link>
               </p>
             </li>
             <li>
-              <a
+              <Link
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="/looflirpa"
               >
                 <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg"
@@ -513,20 +512,20 @@ export default function Home() {
                   width="115"
                   height="115"
                 />
-              </a>
+              </Link>
               <p>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                <Link
+                  href="/looflirpa"
                   title=" Voltron Cat Condo"
                 >
                   Voltron Cat Condo
-                </a>
+                </Link>
               </p>
             </li>
             <li>
-              <a
+              <Link
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                href="/looflirpa"
               >
                 <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
@@ -534,20 +533,20 @@ export default function Home() {
                   width="115"
                   height="115"
                 />
-              </a>
+              </Link>
               <p>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+                <Link
+                  href="/looflirpa"
                   title="bullet time selfie rig"
                 >
                   &quot;Bullet Time&quot; Selfie Rig
-                </a>
+                </Link>
               </p>
             </li>
             <li>
-              <a
+              <Link
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
+                href="/looflirpa"
               >
                 <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
@@ -555,21 +554,21 @@ export default function Home() {
                   width="115"
                   height="115"
                 />
-              </a>
+              </Link>
               <p>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
+                <Link
+                  href="/looflirpa"
                   title=" GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
                 >
                   GotG Collector&apos;s Edition Groot Beer and Rocket Fuel
                   Two-Pack
-                </a>
+                </Link>
               </p>
             </li>
             <li>
-              <a
+              <Link
                 className="also-bought-image"
-                href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
+                href="/looflirpa"
               >
                 <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
@@ -577,14 +576,14 @@ export default function Home() {
                   width="115"
                   height="115"
                 />
-              </a>
+              </Link>
               <p>
-                <a
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
+                <Link
+                  href="/looflirpa"
                   title=" Power Wheels Desert Drifters"
                 >
                   Power Wheels Desert Drifters
-                </a>
+                </Link>
               </p>
             </li>
           </ul>

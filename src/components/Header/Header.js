@@ -14,13 +14,13 @@ const Header = () => {
       <div id="header-wrapper" className="header-wrapper">
         <div id="header-main">
           <div className="content-container">
-            <a
+            <Link
               id="header-logo"
               className="ir"
-              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
+              href="/looflirpa"
             >
               ThinkGeek - Join In. Geek Out.
-            </a>
+            </Link>
             <div id="header-right">
               <div id="header-service">
                 <ul>
@@ -32,10 +32,10 @@ const Header = () => {
                     </a>{" "}
                   </li>
                   <li>
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/help">
+                    <Link href="/looflirpa">
                       <i className="icon-question-circle" />
                       Help
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -58,65 +58,65 @@ const Header = () => {
             <span className="topnav_sprite_preloader" />
             <ul className="topnav_primary">
               <li id="topnav_category" className="topnav_primary_parent">
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/categories/">
+                <Link href="/looflirpa">
                   Shop by Category
                   <i className="icon-angle-down" />
-                </a>
+                </Link>
                 <ul className="topnav_secondary">
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/">
+                    <Link href="/looflirpa">
                       T-Shirts &amp; Apparel
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo ">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
                           <span className="topnav_tertiary_title">Apparel</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/unisex/all/">
+                              <Link href="/looflirpa">
                                 T-Shirts
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/womens/">
+                              <Link href="/looflirpa">
                                 Women&apos;s Tops, Tanks &amp; Babydolls
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/golfshirts/">
+                              <Link href="/looflirpa">
                                 Polos &amp; Work Shirts
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/hoodies/">
+                              <Link href="/looflirpa">
                                 Hoodies &amp; Jackets
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/slippers-robes-pajamas/">
+                              <Link href="/looflirpa">
                                 Slippers, Robes &amp; Pajamas
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/socks-underwear/">
+                              <Link href="/looflirpa">
                                 Socks &amp; Underwear
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/dresses-skirts-leggings/">
+                              <Link href="/looflirpa">
                                 Dresses, Skirts &amp; Leggings
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/kids/">
+                              <Link href="/looflirpa">
                                 Baby &amp; Kids
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/costumes/">
+                              <Link href="/looflirpa">
                                 Costumes &amp; Cosplay
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -128,34 +128,34 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/jewelry/">
+                              <Link href="/looflirpa">
                                 Jewelry
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/watches/">
+                              <Link href="/looflirpa">
                                 Watches
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/accessories/">
+                              <Link href="/looflirpa">
                                 Wallets, Purses &amp; Keychains
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/bags-backpacks-luggage/">
+                              <Link href="/looflirpa">
                                 Bags, Backpacks &amp; Luggage
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/hats-ties/">
+                              <Link href="/looflirpa">
                                 Hats, Scarves, Belts &amp; More
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/cosmetics/">
+                              <Link href="/looflirpa">
                                 Cosmetics &amp; Body
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -165,24 +165,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/all/feature/desc/0/all/sale/1/">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -198,54 +198,54 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/">
+                    <Link href="/looflirpa">
                       Geek Toys
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
                           <span className="topnav_tertiary_title">Geek Toys</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/collectibles/">
+                              <Link href="/looflirpa">
                                 Action Figures &amp; Collectibles
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/costume-accessories/">
+                              <Link href="/looflirpa">
                                 Costume &amp; Cosplay Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/rc/">
+                              <Link href="/looflirpa">
                                 R/C Toys
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/games/">
+                              <Link href="/looflirpa">
                                 Board Games, Cards &amp; Puzzles
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/plush/">
+                              <Link href="/looflirpa">
                                 Plush
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/office-pranks/">
+                              <Link href="/looflirpa">
                                 Office Pranks &amp; Cube Warfare
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/science/">
+                              <Link href="/looflirpa">
                                 DIY &amp; Science Toys
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/lego-other/">
+                              <Link href="/looflirpa">
                                 Other Geeky Toys
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -257,24 +257,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geektoys/all/feature/desc/0/all/sale/1">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -290,10 +290,10 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/">
+                    <Link href="/looflirpa">
                       Electronics &amp; Gadgets
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
@@ -302,54 +302,54 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/computer-accessories/">
+                              <Link href="/looflirpa">
                                 Computer &amp; PC Gaming Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/console-portable-gaming/">
+                              <Link href="/looflirpa">
                                 Console &amp; Portable Gaming
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/camera-photo-video/">
+                              <Link href="/looflirpa">
                                 Camera, Photo &amp; Video
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/speakers-headphones-audio/">
+                              <Link href="/looflirpa">
                                 Speakers, Headphones &amp; Audio
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/lights-lasers/">
+                              <Link href="/looflirpa">
                                 Lights &amp; Lasers
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/spy-security/">
+                              <Link href="/looflirpa">
                                 Spy &amp; Security
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/usb-accessories/">
+                              <Link href="/looflirpa">
                                 USB Hubs, Drives &amp; Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/music-gear/">
+                              <Link href="/looflirpa">
                                 Music Gear
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/car-accessories/">
+                              <Link href="/looflirpa">
                                 Car Gadgets &amp; Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/bags-backpacks/">
+                              <Link href="/looflirpa">
                                 Bags &amp; Backpacks
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -361,19 +361,19 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/iphone-smartphone/">
+                              <Link href="/looflirpa">
                                 iPhone &amp; Smartphone Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/ipad-tablet/">
+                              <Link href="/looflirpa">
                                 iPad &amp; Tablet Accessories
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/batteries-chargers-cables/">
+                              <Link href="/looflirpa">
                                 Batteries, Chargers &amp; Cables
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -383,24 +383,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/all/feature/desc/0/all/sale/1/">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -416,59 +416,59 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/">
+                    <Link href="/looflirpa">
                       Home &amp; Office
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo ">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
                           <span className="topnav_tertiary_title">Home</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/blankets-rugs-towels/">
+                              <Link href="/looflirpa">
                                 Blankets, Rugs &amp; Towels
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/lights/">
+                              <Link href="/looflirpa">
                                 Lighting &amp; Clocks
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/calendars-posters-decals/">
+                              <Link href="/looflirpa">
                                 Calendars, Posters &amp; Decals
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/bath/">
+                              <Link href="/looflirpa">
                                 Bath
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/kitchen/">
+                              <Link href="/looflirpa">
                                 Kitchen
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/mugs-travel/">
+                              <Link href="/looflirpa">
                                 Coffee Mugs &amp; Travel Mugs
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/glassware/">
+                              <Link href="/looflirpa">
                                 Glassware &amp; Drinkware
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/food-caffeine">
+                              <Link href="/looflirpa">
                                 Food &amp; Caffeine
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/pets/">
+                              <Link href="/looflirpa">
                                 Pet Accessories
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -478,24 +478,24 @@ const Header = () => {
                           <span className="topnav_tertiary_title">Office</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/office-pranks/">
+                              <Link href="/looflirpa">
                                 Office Pranks &amp; Cube Warfare
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/geeky-office-supplies/">
+                              <Link href="/looflirpa">
                                 Geeky Office Supplies
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/bags-backpacks/">
+                              <Link href="/looflirpa">
                                 Bags, Backpacks &amp; Luggage
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/books/">
+                              <Link href="/looflirpa">
                                 Books
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -505,24 +505,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/homeoffice/feature/desc/0/all/sale/1/">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -538,10 +538,10 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/">
+                    <Link href="/looflirpa">
                       Tools, Outdoor &amp; Survival
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
@@ -550,29 +550,29 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/knives-swords-axes/">
+                              <Link href="/looflirpa">
                                 Knives, Swords &amp; Axes
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/survival-camping-gear/">
+                              <Link href="/looflirpa">
                                 Survival &amp; Camping Gear
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/geek-tools/">
+                              <Link href="/looflirpa">
                                 Geek Tools
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/outdoor-backyard-fun/">
+                              <Link href="/looflirpa">
                                 Outdoor &amp; Backyard Fun
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/car-gadgets-accessories/">
+                              <Link href="/looflirpa">
                                 Car Gadgets &amp; Accessories
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -584,24 +584,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tools-outdoor-survival/all/feature/desc/0/all/sale/1/">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -617,39 +617,39 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/">
+                    <Link href="/looflirpa">
                       Geek Kids
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary topnav_tertiary_promo ">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
                           <span className="topnav_tertiary_title">Geek Kids</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/newborn-infant/">
+                              <Link href="/looflirpa">
                                 Newborn &amp; Infant
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/1-3-years/">
+                              <Link href="/looflirpa">
                                 1-3 Years
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/3-7-years/">
+                              <Link href="/looflirpa">
                                 3-7 Years
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/7-13-years/">
+                              <Link href="/looflirpa">
                                 7-13 Years
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/tshirts-apparel/">
+                              <Link href="/looflirpa">
                                 T-Shirts &amp; Apparel
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -661,24 +661,24 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/all/">
+                              <Link href="/looflirpa">
                                 View All
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/all/newest/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Newest
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/all/feature/desc/0/100/">
+                              <Link href="/looflirpa">
                                 View All Bestselling
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geek-kids/feature/desc/0/all/sale/1/">
+                              <Link href="/looflirpa">
                                 View All On Sale
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -696,451 +696,451 @@ const Header = () => {
                 </ul>
               </li>
               <li id="topnav_interest" className="topnav_primary_parent">
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                <Link href="/looflirpa">
                   Shop by Interest
                   <i className="icon-angle-down" />
-                </a>
+                </Link>
                 <ul className="topnav_secondary">
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                    <Link href="/looflirpa">
                       TV, Movies &amp; Books
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary">
                       <div className="topnav_tertiary_column last">
                         <ul className="topnav_tertiary_grid">
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_star-wars"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/starwars/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Star Wars</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_doctor-who"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/doctorwho/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Doctor Who</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_star-trek"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/startrek/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Star Trek</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_big-bang-theory"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/bigbangtheory/"
+                              href="/looflirpa"
                             >
                               <span className="ir">The Big Bang Theory</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_firefly"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/firefly/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Firefly &amp; Serenity</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_adventure-time"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/adventuretime/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Adventure Time</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_harry-potter"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/harrypotter/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Harry Potter</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_my-little-pony"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/mylittlepony/"
+                              href="/looflirpa"
                             >
                               <span className="ir">My Little Pony</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_game-of-thrones"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/gameofthrones/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Game of Thrones</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_tolkien"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/tolkien/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Tolkien</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_marvel"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/marvel/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Marvel</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_walking-dead"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/walking-dead/"
+                              href="/looflirpa"
                             >
                               <span className="ir">The Walking Dead</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_breaking-bad"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/breaking-bad/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Breaking Bad</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_dc-comics"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/dc-comics/"
+                              href="/looflirpa"
                             >
                               <span className="ir">DC Comics</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_back-to-the-future"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/back-to-the-future/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Back to the Future</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_guardians-of-the-galaxy"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/guardians-of-the-galaxy/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Guardians of the Galaxy</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="topnav_tertiary_view-all">
-                            <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                            <Link href="/looflirpa">
                               View All Interests
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/gamer/">
+                    <Link href="/looflirpa">
                       Gaming
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary">
                       <div className="topnav_tertiary_column last">
                         <ul className="topnav_tertiary_grid">
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_minecraft"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/minecraft/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Minecraft</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_portal-2"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/portal/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Portal</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_world-of-warcraft"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/world-of-warcraft/"
+                              href="/looflirpa"
                             >
                               <span className="ir">World of Warcraft</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_dungeons-and-dragons"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/dungeonsanddragons/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Dungeons and Dragons</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_pacman"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/pacman/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Pac-Man</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_space-invaders"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/space-invaders/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Space Invaders</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_mass-effect"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/mass-effect/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Mass Effect</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_dota-2"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/dota-2/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Dota 2</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_xbox"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/xbox/"
+                              href="/looflirpa"
                             >
                               <span className="ir">XBOX</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_razer"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/razer/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Razer</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_roccat"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/roccat/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Roccat</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_watch-dogs"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/watch-dogs/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Watch Dogs</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_legend-of-zelda"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/legend-of-zelda/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Legend of Zelda</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="topnav_tertiary_view-all">
-                            <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/gamer/">
+                            <Link href="/looflirpa">
                               View All Gaming
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                    <Link href="/looflirpa">
                       Other Interests
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary">
                       <div className="topnav_tertiary_column last">
                         <ul className="topnav_tertiary_grid topnav_tertiary_pop-culture">
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_cool-retro"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/retro/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Cool Retro</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_tacticool"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/tacticool/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Tacticool</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_zombies"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/zombies/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Zombies</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_everyday-carry"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/everyday-carry/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Everyday Carry</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_charm-bracelets"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/charm-bracelets/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Charm Bracelets</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_mad-scientist"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/madscientist/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Mad Scientist</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_lego"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/lego/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Lego</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_gaming"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/gamer/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Gaming</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_frustrations"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/frustrations/"
+                              href="/looflirpa"
                             >
                               <span className="ir">frustrations</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_superheroes"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/superheroes/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Superheroes</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_travel"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/travel/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Travel</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_geek-party"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/geekparty/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Geek Party</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_grillin-chillin"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/grillin-and-chillin/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Grillin and Chillin</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_geek-labs"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/invented/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Geek Labs</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_pop-vinyl"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/pop-vinyl/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Pop Vinyl</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="last">
-                            <a
+                            <Link
                               className="topnav_logo topnav_steampunk"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/steampunk/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Steampunk</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_fall"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/fall/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Fall</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_unicorns"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/unicorns/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Unicorns</span>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               className="topnav_logo topnav_anime-manga"
-                              href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/anime-and-manga/"
+                              href="/looflirpa"
                             >
                               <span className="ir">Anime &amp; Manga</span>
-                            </a>
+                            </Link>
                           </li>
                           <li className="topnav_tertiary_view-all">
-                            <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                            <Link href="/looflirpa">
                               View All Interests
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </li>
                   <li className="topnav_secondary_parent tgnav_secondary_parent">
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/gifts/">
+                    <Link href="/looflirpa">
                       Gifts
                       <i className="icon-angle-right" />
-                    </a>
+                    </Link>
                     <div className="topnav_tertiary">
                       <div className="topnav_tertiary_column">
                         <div className="topnav_tertiary_row">
@@ -1149,44 +1149,44 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsforhim/">
+                              <Link href="/looflirpa">
                                 Gifts for Him
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsforher/">
+                              <Link href="/looflirpa">
                                 Gifts for Her
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsforkids/">
+                              <Link href="/looflirpa">
                                 Gifts for Kids
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/dads/">
+                              <Link href="/looflirpa">
                                 Gifts for Dads
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/moms/">
+                              <Link href="/looflirpa">
                                 Gifts for Moms
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/grads/">
+                              <Link href="/looflirpa">
                                 Gifts for Grads
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/students/">
+                              <Link href="/looflirpa">
                                 Gifts for Students
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/techies/">
+                              <Link href="/looflirpa">
                                 Gifts for Techies, Developers, &amp; Sysadmins
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1196,34 +1196,34 @@ const Header = () => {
                           <span className="topnav_tertiary_title">By Price</span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsunder10/">
+                              <Link href="/looflirpa">
                                 Gifts under $10
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsunder20/">
+                              <Link href="/looflirpa">
                                 Gifts under $20
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsunder30/">
+                              <Link href="/looflirpa">
                                 Gifts under $30
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsunder50/">
+                              <Link href="/looflirpa">
                                 Gifts under $50
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/gifts-over-75/">
+                              <Link href="/looflirpa">
                                 Gifts over $75
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/giftsunder100/">
+                              <Link href="/looflirpa">
                                 Gifts under $100
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1233,14 +1233,14 @@ const Header = () => {
                           </span>
                           <ul>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/order/certificate.cgi">
+                              <Link href="/looflirpa">
                                 Gift Certificates
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/gifts/">
+                              <Link href="/looflirpa">
                                 View All Gifts
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -1248,9 +1248,9 @@ const Header = () => {
                     </div>
                   </li>
                   <li>
-                    <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/">
+                    <Link href="/looflirpa">
                       View All Interests
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -1283,9 +1283,9 @@ const Header = () => {
                 className="topnav_primary_parent topnav_account_login "
               >
                 {" "}
-                <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/brain/account/login.cgi">
+                <Link href="/looflirpa">
                   <i className="icon-lock" /> Log In
-                </a>
+                </Link>
                 <ul className="topnav_secondary">
                   <li id="loggingin" className="logging-in">
                     <form
@@ -1313,22 +1313,22 @@ const Header = () => {
                       />
                     </form>
                     <p className="topnav_secondary_subtext align-center">
-                      <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/brain/account/passwd.cgi">
+                      <Link href="/looflirpa">
                         Forgot password?
-                      </a>{" "}
+                      </Link>{" "}
                       |{" "}
-                      <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/brain/account/login.cgi">
+                      <Link href="/looflirpa">
                         Create an Account
-                      </a>
+                      </Link>
                     </p>
                   </li>
                 </ul>
               </li>
               <li id="topnav_cart" className="topnav_primary_parent">
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/loot.cgi">
+                <Link href="/looflirpa">
                   <i className="icon-shopping-cart" />
                   No loot
-                </a>
+                </Link>
                 <ul className="topnav_secondary">
                   <li className="topnav_cart_items">
                     <div className="spinner-wrapper">
@@ -1338,16 +1338,16 @@ const Header = () => {
                     <ul />
                   </li>
                   <li className="topnav_cart_checkout">
-                    <a
+                    <Link
                       className="butt0n butt0n-blue butt0n-full"
-                      href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/brain/checkout/address.cgi"
+                      href="/looflirpa"
                     >
                       Go to Checkout
-                    </a>
+                    </Link>
                     <span>
-                      <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/loot.cgi">
+                      <Link href="/looflirpa">
                         View/Edit Cart
-                      </a>
+                      </Link>
                     </span>
                   </li>
                 </ul>
@@ -1365,52 +1365,52 @@ const Header = () => {
           <div className="content-container">
             <ul>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/whats-new/">
+                <Link href="/looflirpa">
                   What&apos;s New
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/bestsellers/">
+                <Link href="/looflirpa">
                   Bestsellers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/interests/exclusives/">
+                <Link href="/looflirpa">
                   Exclusives
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/gifts/">
+                <Link href="/looflirpa">
                   Gifts
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/tshirts-apparel/">
+                <Link href="/looflirpa">
                   T-Shirts &amp; Apparel
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/electronics-gadgets/">
+                <Link href="/looflirpa">
                   Electronics &amp; Gadgets
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/brain/order/certificate.cgi">
+                <Link href="/looflirpa">
                   Gift Certificates
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   className="color-sale"
-                  href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/clearance/on-sale/"
+                  href="/looflirpa"
                 >
                   On Sale
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/geekpoints/">
+                <Link href="/looflirpa">
                   <span className="color-green">Geek</span>Points
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
