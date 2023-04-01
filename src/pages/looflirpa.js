@@ -80,7 +80,7 @@ export default function Home() {
         {/* Right Side Container */}
         <h1 style={{marginTop: 0}}>Gotcha!</h1>
         
-        <p style={{fontSize: '1.6em'}}>I know you were looking forward to printing the Portable Hug Machine, or didn't you get that one?</p>
+        <p style={{fontSize: '1.6em'}}>I know you were looking forward to printing the Portable Hug Machine, or didn&apos;t you get that one?</p>
 
         <p style={{fontSize: '1.2em'}}>Anyways, go generate a new one or trick your friends!</p>
 
