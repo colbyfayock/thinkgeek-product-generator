@@ -11,7 +11,7 @@ const defaultImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/up
 const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png' };
 
 const defaultProductTitle = 'ThinkGeek Replicator 2320';
-const defaultProductTagline = 'The product produced is... for lack of a better word... perfect!';
+const defaultProductTagline = 'Ask and you shall receive...';
 const defaultProductDescriptionLong = `Introducing the ThinkGeek Replicator 2320, a cutting-edge 3D printer that is light years ahead of its time. With this machine at your fingertips, you can bring your wildest imaginations to life with the touch of a button. From intricate circuitry to exotic life forms, the Replicator 2320 can print it all.
 
 Equipped with advanced replicator technology, this machine is the perfect tool for any sci-fi enthusiast. Whether you're a Star Wars fan looking to create your own lightsaber hilt or a Trekkie hoping to bring your favorite starship to life, the Replicator 2320 has you covered.
@@ -22,11 +22,10 @@ But the Replicator 2320 isn't just a tool for recreating sci-fi props and gadget
 
 So, whether you're a hobbyist, a professional engineer, or a mad scientist bent on world domination, the ThinkGeek Replicator 2320 is the ultimate tool for turning your dreams into reality. Don't miss your chance to own this revolutionary 3D printer and join the ranks of the greatest sci-fi creators of all time.`;
 const defaultProductDescriptionBullets = [
-  'Revolutionary 3D printer capable of printing anything',
-  'Advanced replicator technology for recreating sci-fi props and gadgets',
-  'Can print complex mechanical parts, medical implants, and even human organs',
-  'Perfect for hobbyists, engineers, and mad scientists alike',
-  'Step into the future with the ThinkGeek Replicator 2320'
+  'Revolutionary 1 of 1 product generator from the year 2320',
+  'Advanced replicator powered by GPT-4242 AI technology',
+  'Capable of printing anything - from star stuff to actual people',
+  'Has only one purpose, to serve man'
 ];
 const defaultProductSpecifications = [
   'State-of-the-art 3D printing technology',
@@ -221,7 +220,7 @@ export default function Home() {
             </ul>
             <a id="bullets-read-more" href="#tabs">
               <i className="icon-arrow-circle-down" />
-              Read more...
+              &nbsp;&nbsp;Read more...
             </a>
             <hr />
           </div>
@@ -311,8 +310,9 @@ export default function Home() {
         {/* Right Side Container */}
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
+          <span>Share the awesome:</span>
           <span className="social-button-pinterest">
-            <a className="twitter-share-button" href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
+            <a className="twitter-share-button" href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek" data-size="large">
               Tweet
             </a>
           </span>
