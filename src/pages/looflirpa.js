@@ -179,7 +179,7 @@ export default function Home() {
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
           <span className="social-button-pinterest">
-            <a class="twitter-share-button"
+            <a className="twitter-share-button"
                 href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
               Tweet
             </a>

@@ -78,14 +78,13 @@ const Layout = ({ children }) => {
                     Geek Kids
                   </a>
                 </li>
-                <li className="hr" /> {/* <li class="hr"></li> */}
+                <li className="hr" />
                 <li className="nav-extras nav-sale">
                   <a
                     className="color-sale"
                     href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/clearance/on-sale/?icpg=leftnav_onsale"
                   >
                     Clearance
-                    {/* <span class="leftnav_clearance_tag tg_global_sprite"></span> */}
                   </a>
                 </li>
                 <li className="nav-extras">

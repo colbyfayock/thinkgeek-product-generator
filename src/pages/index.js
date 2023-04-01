@@ -1,11 +1,15 @@
 import { useState } from 'react';
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
+import { CldImage } from 'next-cloudinary';
 
 import Layout from '@/components/Layout';
 
 const defaultAttributes = {};
+
 const defaultImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680278578/thinkgeek-product-generator/img-ikkJma7JlWA6dn1Ih88mdjYB_pmhgxr.png' }
+const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png' };
+
 const defaultProductTitle = 'ThinkGeek Replicator 2320';
 const defaultProductTagline = 'The product is produced... for lack of a better word... perfect!';
 const defaultProductDescriptionLong = `Introducing the ThinkGeek Replicator 2320, a cutting-edge 3D printer that is light years ahead of its time. With this machine at your fingertips, you can bring your wildest imaginations to life with the touch of a button. From intricate circuitry to exotic life forms, the Replicator 2320 can print it all.
@@ -55,16 +59,14 @@ export default function Home() {
     ogDescription = defaultOgDescription, 
   } = attributes;
 
-  const isGeneratedProduct = productTitle !== defaultProductTitle;
+  const isGeneratedProduct = productTitle !== defaultProductTitle && image?.url !== defaultImage.url && image?.url !== loadingImage.url;
 
   async function handleOnGenerate(e) {
     e.preventDefault();
 
     setIsLoading(true);
     setAttributes(defaultAttributes);
-    setImage({
-      url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png'
-    });
+    setImage(loadingImage);
     setError(undefined);
 
     try {
@@ -171,26 +173,27 @@ export default function Home() {
       <div className="clear" />
       <div id="product-main">
         <div id="productimage">
-          <img
+          <CldImage
+            width={70}
+            height={73}
             className="badge-invented"
-            src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/badge_custom.png"
+            src="thinkgeek-product-generator/badge_custom"
             alt="Invented at ThinkGeek"
           />
           <div className="prod_gallery">
             <div id="image">
               <a
                 id="carousel_front"
-                href={defaultImage.url}
+                src={image?.url || defaultImage.url}
                 title=""
                 rel="group1"
               >
-                <img
+                <CldImage
                   width={300}
                   height={300}
-                  src={image.url}
+                  src={image?.url || defaultImage.url}
+                  format="webp"
                   alt=""
-                  border={0}
-                  style={{ display: "block" }}
                 />
                 <div className="caption">
                   <p
@@ -213,7 +216,7 @@ export default function Home() {
             <ul>
               {productDescriptionBullets.map(bullet => {
                 return (
-                  <li key="bullet">{ bullet }</li>
+                  <li key={bullet}>{ bullet }</li>
                 );
               })}
             </ul>
@@ -310,8 +313,7 @@ export default function Home() {
         {/* MAIN PRODUCT PAGE */}
         <div className="social-sharing">
           <span className="social-button-pinterest">
-            <a class="twitter-share-button"
-                href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
+            <a className="twitter-share-button" href="https://twitter.com/intent/tweet?text=ThinkGeek%20Replicator%202320%20on%20ThinkGeek">
               Tweet
             </a>
           </span>
@@ -350,7 +352,7 @@ export default function Home() {
             <ul>
               {productSpecifications.map(spec => {
                 return (
-                  <li key="spec">{ spec }</li>
+                  <li key={spec}>{ spec }</li>
                 )
               })}
             </ul>
@@ -377,7 +379,7 @@ export default function Home() {
             <ul className="clearfix">
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
-                  <img
+                  <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
                     width={128}
                     height={128}
@@ -392,7 +394,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
-                  <img
+                  <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
                     width={128}
                     height={128}
@@ -407,7 +409,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
-                  <img
+                  <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
                     width={128}
                     height={128}
@@ -422,7 +424,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/">
-                  <img
+                  <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
                     width={128}
                     height={128}
@@ -437,7 +439,7 @@ export default function Home() {
               </li>
               <li className="last">
                 <a href="https://web.archive.org/web/20150404213211/https://www.thinkgeek.com/">
-                  <img
+                  <CldImage
                     src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
                     alt="Gift Certificates"
                     width={128}
@@ -467,7 +469,7 @@ export default function Home() {
             href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/action-shots"
             className="actionshot"
           >
-            <img
+            <CldImage
               src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/suyas-icon.gif"
               alt="Send us your action shots!"
               width={108}
@@ -484,9 +486,11 @@ export default function Home() {
                 className="also-bought-image"
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
               >
-                <img
+                <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
                   alt="Steam-Powered Gaming Cabinet"
+                  width="115"
+                  height="115"
                 />
               </a>
               <p>
@@ -503,9 +507,11 @@ export default function Home() {
                 className="also-bought-image"
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
               >
-                <img
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg "
+                <CldImage
+                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg"
                   alt="Voltron Cat Condo"
+                  width="115"
+                  height="115"
                 />
               </a>
               <p>
@@ -522,9 +528,11 @@ export default function Home() {
                 className="also-bought-image"
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/"
               >
-                <img
+                <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
                   alt="bullet time selfie rig"
+                  width="115"
+                  height="115"
                 />
               </a>
               <p>
@@ -541,9 +549,11 @@ export default function Home() {
                 className="also-bought-image"
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljl/"
               >
-                <img
+                <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
                   alt="GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
+                  width="115"
+                  height="115"
                 />
               </a>
               <p>
@@ -561,9 +571,11 @@ export default function Home() {
                 className="also-bought-image"
                 href="https://web.archive.org/web/20150404213211/http://www.thinkgeek.com/iljp/"
               >
-                <img
+                <CldImage
                   src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
                   alt="Power Wheels Desert Drifters"
+                  width="115"
+                  height="115"
                 />
               </a>
               <p>

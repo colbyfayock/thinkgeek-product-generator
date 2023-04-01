@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Container from '@/components/Container';
 
 import styles from './Header.module.scss';
+import { CldImage } from 'next-cloudinary';
 
 const Header = () => {
   return (
@@ -187,10 +188,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_apparel-3_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_apparel-3_250x300_o9clbi"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -278,10 +280,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_geektoys_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_geektoys_250x300_baeaz7"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -403,10 +406,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_electronicsgadgets-3_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_electronicsgadgets-3_250x300_bzbyji"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -524,10 +528,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_homeoffice-3_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_homeoffice-3_250x300_uj9pq1"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -602,10 +607,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_toolsoutdoorsurvival_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_toolsoutdoorsurvival_250x300_kjacgd"
+                          alt=""
                         />
                       </div>
                     </div>
@@ -678,10 +684,11 @@ const Header = () => {
                         </div>
                       </div>
                       <div className="topnav_tertiary_column topnav_tertiary_promo_column">
-                        <img
+                        <CldImage
                           width={250}
                           height={300}
-                          src="https://web.archive.org/web/20150404213211im_/http://a.tgcdn.net/images/navigation/promos/navbar_promo_geekkids-3_250x300.png"
+                          src="thinkgeek-product-generator/navbar_promo_geekkids-3_250x300_kcverm"
+                          alt=""
                         />
                       </div>
                     </div>
