@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <Script
-        strategy="afterInteractive"
+        id="twitter"
         dangerouslySetInnerHTML={{
           __html: `
           window.twttr = (function(d, s, id) {
