@@ -11,7 +11,7 @@ const defaultImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/up
 const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png' };
 
 const defaultProductTitle = 'ThinkGeek Replicator 2320';
-const defaultProductTagline = 'The product is produced... for lack of a better word... perfect!';
+const defaultProductTagline = 'The product produced... for lack of a better word... perfect!';
 const defaultProductDescriptionLong = `Introducing the ThinkGeek Replicator 2320, a cutting-edge 3D printer that is light years ahead of its time. With this machine at your fingertips, you can bring your wildest imaginations to life with the touch of a button. From intricate circuitry to exotic life forms, the Replicator 2320 can print it all.
 
 Equipped with advanced replicator technology, this machine is the perfect tool for any sci-fi enthusiast. Whether you're a Star Wars fan looking to create your own lightsaber hilt or a Trekkie hoping to bring your favorite starship to life, the Replicator 2320 has you covered.
