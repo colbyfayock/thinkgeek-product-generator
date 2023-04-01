@@ -139,7 +139,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content={defaultImage.url}
+          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta name="twitter:image:width" content={2400} />
         <meta name="twitter:image:height" content={1200} />
