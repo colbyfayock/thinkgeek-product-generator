@@ -17,7 +17,7 @@ const Header = () => {
             <Link
               id="header-logo"
               className="ir"
-              href="/looflirpa"
+              href="/"
             >
               ThinkGeek - Join In. Geek Out.
             </Link>
