@@ -7,8 +7,8 @@ import Layout from '@/components/Layout';
 
 const defaultAttributes = {};
 
-const defaultImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680278578/thinkgeek-product-generator/img-ikkJma7JlWA6dn1Ih88mdjYB_pmhgxr.png' }
-const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/thinkgeek-product-generator/in-progress' };
+const defaultImage = { url: 'https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680278578/thinkgeek-product-generator/img-ikkJma7JlWA6dn1Ih88mdjYB_pmhgxr.png' }
+const loadingImage = { url: 'https://res.cloudinary.com/fay/image/upload/v1680294948/thinkgeek-product-generator/in-progress' };
 
 const defaultProductTitle = 'ThinkGeek Replicator 2320';
 const defaultProductTagline = 'Ask and you shall receive...';
@@ -107,11 +107,11 @@ export default function Home() {
         <meta property="og:title" content="" />
         <meta
           property="og:url"
-          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
+          content="https://res.cloudinary.com/fay/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
+          content="https://res.cloudinary.com/fay/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta property="og:site_name" content="ThinkGeek" />
         <meta
@@ -126,7 +126,7 @@ export default function Home() {
         />
         <meta
           itemProp="image"
-          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
+          content="https://res.cloudinary.com/fay/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta
           name="twitter:url"
@@ -139,7 +139,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/colbycloud-apps/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
+          content="https://res.cloudinary.com/fay/image/upload/v1680292895/thinkgeek-product-generator/thinkgeek-social-v1_p0zicx.png"
         />
         <meta name="twitter:image:width" content={2400} />
         <meta name="twitter:image:height" content={1200} />
@@ -379,7 +379,7 @@ export default function Home() {
               <li>
                 <Link href="/looflirpa">
                   <CldImage
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
+                    src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1a1d_bag_of_holding_con-survival_ed_updated.jpg"
                     width={128}
                     height={128}
                     alt="Bag of Holding - Con-Survival Edition"
@@ -394,7 +394,7 @@ export default function Home() {
               <li>
                 <Link href="/looflirpa">
                   <CldImage
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
+                    src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1d89_d20_bowl_set.jpg"
                     width={128}
                     height={128}
                     alt="D20 Bowl Set"
@@ -409,7 +409,7 @@ export default function Home() {
               <li>
                 <Link href="/looflirpa">
                   <CldImage
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
+                    src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/1cd7_d20_cupcake_mold.jpg"
                     width={128}
                     height={128}
                     alt="D20 Critical Hit Mini Cake Pan"
@@ -424,7 +424,7 @@ export default function Home() {
               <li>
                 <Link href="/looflirpa">
                   <CldImage
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
+                    src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/deaa_critical_hit_d20.gif"
                     width={128}
                     height={128}
                     alt="Critical Hit LED D20 Die"
@@ -439,7 +439,7 @@ export default function Home() {
               <li className="last">
                 <Link href="/looflirpa">
                   <CldImage
-                    src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
+                    src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/gift-icon-120x120.jpg"
                     alt="Gift Certificates"
                     width={128}
                     height={128}
@@ -469,7 +469,7 @@ export default function Home() {
             className="actionshot"
           >
             <CldImage
-              src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/suyas-icon.gif"
+              src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/suyas-icon.gif"
               alt="Send us your action shots!"
               width={108}
               height={58}
@@ -486,7 +486,7 @@ export default function Home() {
                 href="/looflirpa"
               >
                 <CldImage
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
+                  src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljn_steam-powered_steam_machine.gif"
                   alt="Steam-Powered Gaming Cabinet"
                   width="115"
                   height="115"
@@ -507,7 +507,7 @@ export default function Home() {
                 href="/looflirpa"
               >
                 <CldImage
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg"
+                  src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljr_voltron_cat_condo.jpg"
                   alt="Voltron Cat Condo"
                   width="115"
                   height="115"
@@ -528,7 +528,7 @@ export default function Home() {
                 href="/looflirpa"
               >
                 <CldImage
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
+                  src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljo_selfie_rig.jpg"
                   alt="bullet time selfie rig"
                   width="115"
                   height="115"
@@ -549,7 +549,7 @@ export default function Home() {
                 href="/looflirpa"
               >
                 <CldImage
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
+                  src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljl_gotg_bottled_drinks.jpg"
                   alt="GotG Collector's Edition Groot Beer and Rocket Fuel Two-Pack"
                   width="115"
                   height="115"
@@ -571,7 +571,7 @@ export default function Home() {
                 href="/looflirpa"
               >
                 <CldImage
-                  src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
+                  src="https://res.cloudinary.com/fay/image/upload/f_auto,q_auto/v1680276139/thinkgeek-product-generator/iljp_mad_max_power_wheels.jpg"
                   alt="Power Wheels Desert Drifters"
                   width="115"
                   height="115"
