@@ -8,7 +8,7 @@ import Layout from '@/components/Layout';
 const defaultAttributes = {};
 
 const defaultImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/f_auto,q_auto/v1680278578/thinkgeek-product-generator/img-ikkJma7JlWA6dn1Ih88mdjYB_pmhgxr.png' }
-const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/in-progress_qc79mq.png' };
+const loadingImage = { url: 'https://res.cloudinary.com/colbycloud-apps/image/upload/v1680294948/thinkgeek-product-generator/in-progress' };
 
 const defaultProductTitle = 'ThinkGeek Replicator 2320';
 const defaultProductTagline = 'Ask and you shall receive...';
