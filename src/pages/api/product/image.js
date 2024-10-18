@@ -13,7 +13,9 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
-export const maxDuration = 30;
+export const config = {
+  maxDuration: 20,
+};
 
 export default async function handler(req, res) {
   try {
