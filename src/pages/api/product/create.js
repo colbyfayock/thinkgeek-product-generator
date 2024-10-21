@@ -35,8 +35,6 @@ export default async function handler() {
       },
     }).then(r => r.json());
 
-    console.log(results.choices[0].message.content);
-
     const attributes = JSON.parse(results.choices[0].message.content);
 
     return new Response(
